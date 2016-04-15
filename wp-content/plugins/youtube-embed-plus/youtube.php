@@ -34,7 +34,7 @@
 function preyoutube_function($content,$isFirstVideo,$isNotSingle, $atts) {
     $getParams = "&autoplay=1";
     if (isSingleVideoPost($isFirstVideo) && !$isNotSingle ) {
-    $getParams .= "&width=650";
+    $getParams .= "&width=600";
     } else {
     $getParams .= "&width=300&height=200";
     //$getParams .= "&start=20";
@@ -44,7 +44,7 @@ function preyoutube_function($content,$isFirstVideo,$isNotSingle, $atts) {
         return $content.$getParams;
     }
     //process plugin
-    $preyt_output = "https://www.youtube.com/watch?v=".$atts["id"].$getParams;
+    $preyt_output = "https://www.youtube.com/watch?wmode=opaque&v=".$atts["id"].$getParams;
     //send back text to calling function
     return $preyt_output;
 }/**

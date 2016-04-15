@@ -100,10 +100,17 @@ h1, div[itemprop="articleBody"] {
 */
 .portfoliooverlay {
     position: absolute;
-    top: 0px;
     left: 0px;
     width: 100%;
+    color: white;
     height: 100%;
+}
+
+.blurred .portfoliooverlay, .blurred .portfoliooverlay:hover {
+    background-color: white;
+    opacity: 0.65;
+    top: 70px;
+    height: 62%;
 }
 
 .portfoliooverlay:hover {
@@ -230,12 +237,19 @@ side sidebar styles
     padding-left: 1%;
     float: right;
     height: 100%;
+    margin-top: 5px;
 }
 
 @media only screen and (max-width: 2000px) {
     #sidebar-side {
-        width: 25%;
+        width: 20%;
         height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #sidebar-side {
+        display: none;
     }
 }
 
@@ -293,12 +307,18 @@ article.post-box[id*="post-"] {
 
 @media only screen and (min-width: 600px) {
     #content {
-        width: 70%;
+        width: 85%;
     }
 
     h1, h2 {
         margin-bottom: 0.7em;
         margin-top: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .g3, h2 span {
+        width: 90%;
     }
 }
 
@@ -345,21 +365,56 @@ h4, ul {
     font-size: 14px;
 }
 
-.postmetadata {
+.g3 .postmetadata {
     display: none;
 }
 
 h2 {
-    margin-left: 1%;
-    margin-right: 1%;
+    /*margin-left: 1%;*/
+    /*margin-right: 1%;*/
     padding-bottom: 0px;
 }
 
 h2 span {
     top: 34px;
     position: relative;
+    display: block;
 }
 
 li.jcl_category {
     border: none !important;
 }
+
+.g1, .g2, .g3 {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+@media only screen and (max-width: 1424px) {
+
+    .g1, .g2, .g3 {
+        margin-right: 10%;
+    }
+}
+
+.g3 .postmetadata {
+    display: none;
+}
+
+#primary-post article {
+    width: 100%;
+}
+
+#primary-post h1 {
+    border-bottom: 1px solid #99742e;
+    height: 43px;
+    width: 98%;
+}
+
+body: {
+    background-image: none;
+}
+
+/*body.custom-background {*/
+/*background-image: none !important;*/
+/*}*/

@@ -41,8 +41,8 @@ if ( is_sticky () && get_query_var ( 'paged' ) < 2 ) {
                     _e ( ' in ' , 'fluid-baseline-grid' );
                     the_category ( ', ' );
                 }
-                _e ( ' by ' , 'fluid-baseline-grid' );
-                the_author_posts_link (); ?></em></p>
+                //     _e ( ' by ' , 'fluid-baseline-grid' );
+                //    the_author_posts_link (); ?></em></p>
     <?php else: ?>
         <h2><a href="<?php the_permalink () ?>" rel="bookmark"
                title="<?php the_title (); ?>"><?php the_time ( get_option ( 'date_format' ) ) ?></a></h2><p

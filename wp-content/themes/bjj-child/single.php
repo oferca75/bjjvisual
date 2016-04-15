@@ -25,6 +25,7 @@ get_header (); ?>
 
                 // breadcrumbs for the WordPress SEO Plugin by Yoast- if you want to use this, uncomment the line, below:
                 //if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<p id="breadcrumbs">','</p>'); } ?>
+                <div id="primary-post">
                 <article itemscope itemtype="http://schema.org/BlogPosting"
                          id="post-<?php the_ID (); ?>" <?php post_class ( 'cf' ); ?>>
                     <meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage"
@@ -89,6 +90,7 @@ get_header (); ?>
                         the_excerpt ();
                     }
                     ?></article>
+                </div>
                 <?php
             endwhile;
         endif;
@@ -109,7 +111,7 @@ get_header (); ?>
             ?>
             <h2><span class="next-moves">Next moves:</span></h2>
         <?php } ?>
-        <div id="content" class="cf">
+        <div class="cf <?php echo !$isPosition ? 'blurred' : ""; ?>">
             <?php
             if ( have_posts () ) :
                 set_query_var ( 'post_title' , $title );
