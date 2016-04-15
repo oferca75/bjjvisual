@@ -1,9 +1,9 @@
 <?php
 get_header (); ?>
-<aside id="widget-area-top">
-    <?php if ( !function_exists ( 'dynamic_sidebar' ) || !dynamic_sidebar ( 'widget-area-top' ) ) {
-    } ?>
-</aside>
+<!--<aside id="widget-area-top">-->
+<!--    --><?php //if ( !function_exists ( 'dynamic_sidebar' ) || !dynamic_sidebar ( 'widget-area-top' ) ) {
+//    } ?>
+<!--</aside>-->
 
 <?php get_sidebar (); ?>
 <div id="content" class="cf">

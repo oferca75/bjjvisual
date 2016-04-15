@@ -34,7 +34,7 @@
 function preyoutube_function($content,$isFirstVideo,$isNotSingle, $atts) {
     $getParams = "&autoplay=1";
     if (isSingleVideoPost($isFirstVideo) && !$isNotSingle ) {
-    $getParams .= "&width=550";
+    $getParams .= "&width=650";
     } else {
     $getParams .= "&width=300&height=200";
     //$getParams .= "&start=20";

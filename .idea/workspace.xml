@@ -1,106 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="Search icon in menu">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/accclose.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/accclose.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ajax-loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btn_embedplusstats.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btn_embedplusstats.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btn_embedplusstatsoff.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btn_embedplusstatsoff.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btn_embedpluswiz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btn_embedpluswiz.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btn_embedpluswizoff.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btn_embedpluswizoff.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btnprefsoff.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btnprefsoff.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btnprefson.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btnprefson.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btnwizoff.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btnwizoff.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btnwizon.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/btnwizon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/bulletgraph45.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/bulletgraph45.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/clickdashboard.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/clickdashboard.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/deletechecker.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/deletechecker.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/epstats16.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/epstats16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/erase.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/erase.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/gallery-page-loader.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/gallery-page-loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/globe.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/globe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/hideget.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/hideget.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/howto.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/howto.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/html5.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/html5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconcache.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconcache.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconcache_gs.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconcache_gs.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconcoupon.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconcoupon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/icondiscuss.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/icondiscuss.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconfb.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconfb.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconfx.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconfx.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/icongallery.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/icongallery.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconmusic.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconmusic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconvolume.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconvolume.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconwizard.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconwizard.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconythealth.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/iconythealth.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/infinity.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/infinity.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/lock.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/lock.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/mobilecompat.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/mobilecompat.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ownline.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ownline.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/playhover.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/playhover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/prioritysupport.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/prioritysupport.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/private.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/private.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/questionsale.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/questionsale.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/showcase.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/showcase.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssaltgallery.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssaltgallery.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssaltgalleryall.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssaltgalleryall.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssaltgallerycircles.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssaltgallerycircles.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssfb.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssfb.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssgallery.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssgallery.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/sshowto.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/sshowto.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssprowizard-th.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssprowizard-th.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssprowizard.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssprowizard.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssprowizard.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssprowizard.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssschemaorg.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssschemaorg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssverticallayout.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/ssverticallayout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/unlink.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/unlink.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/videothumbs.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/videothumbs.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/vseo.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/vseo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/wizbutton.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/wizbutton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/wizbuttonbig.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/wizbuttonbig.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/wizbuttonoff.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/wizbuttonoff.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/youtube_thumbnail_sample.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/youtube_thumbnail_sample.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/youtubeicon.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/youtubeicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/youtubeicon16.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/youtubeicon16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/youtubeicon16off.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/youtubeicon16off.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/youtubewizard.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/youtubewizard.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-1.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-2.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-3.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-4.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-5.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-6.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-7.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-8.jpg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/screenshot-8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/btn_embedplusstats.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/btn_embedplusstats.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/btn_embedplusstatsoff.png" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/btn_embedplusstatsoff.png" />
+    <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="right sidebar">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/arrow-left.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/arrow-left.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/arrow-right.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/arrow-right.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/images/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embdyn.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embdyn.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embdyn.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embdyn.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embedplus_mce.css" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embedplus_mce.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embedplus_mce.js" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embedplus_mce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embedplus_mce_prefs.js" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embedplus_mce_prefs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embedplus_mce_wiz.js" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embedplus_mce_wiz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embedplusstats_mce.js" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/embedplusstats_mce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/jqueryfit.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/jqueryfit.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/ytprefs-admin.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/ytprefs-admin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/styles/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/styles/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/home.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar-content.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar-content.php" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,31 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -156,7 +45,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfourteen/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="2475">
               <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
               <folding />
             </state>
@@ -166,8 +55,8 @@
       <file leaf-file-name="sidebar-content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar-content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="150">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,8 +65,8 @@
       <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="2" selection-start-column="8" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -186,8 +75,28 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="303" column="6" selection-start-line="303" selection-start-column="6" selection-end-line="303" selection-end-column="6" />
+            <state relative-caret-position="235">
+              <caret line="229" column="19" selection-start-line="229" selection-start-column="19" selection-end-line="229" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/fluid-baseline-grid/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,38 +105,18 @@
       <file leaf-file-name="youtube.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="-21">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding>
-                <marker date="1460738934085" expanded="true" signature="11269:11506" placeholder="..." />
-                <marker date="1460738934085" expanded="true" signature="11413:11492" placeholder="..." />
-                <marker date="1460738934085" expanded="true" signature="11689:12060" placeholder="..." />
-                <marker date="1460738934085" expanded="true" signature="12184:12382" placeholder="SELECT count... ${$wpdb-&gt;posts}" />
-                <marker date="1460738934085" expanded="true" signature="16398:16650" placeholder="SELECT SQL_C... ${$wpdb-&gt;posts}" />
-                <marker date="1460738934085" expanded="true" signature="58985:59037" placeholder="..." />
-                <marker date="1460738934085" expanded="true" signature="89805:89833" placeholder="..." />
-                <marker date="1460738934085" expanded="true" signature="110138:110156" placeholder="..." />
-                <marker date="1460738934085" expanded="true" signature="188632:188652" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="youtube.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bjjtotal1/wp-content/plugins/youtube-embed-plus/youtube.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
-              <folding>
-                <marker date="1460737913089" expanded="true" signature="25761:26013" placeholder="SELECT SQL_C... ${$wpdb-&gt;posts}" />
-                <marker date="1460737913089" expanded="true" signature="36586:36823" placeholder="..." />
-                <marker date="1460737913089" expanded="true" signature="36730:36809" placeholder="..." />
-                <marker date="1460737913089" expanded="true" signature="37168:37366" placeholder="SELECT count... ${$wpdb-&gt;posts}" />
-                <marker date="1460737913089" expanded="true" signature="37664:38035" placeholder="..." />
-                <marker date="1460737913089" expanded="true" signature="70234:70286" placeholder="..." />
-                <marker date="1460737913089" expanded="true" signature="83622:83650" placeholder="..." />
-                <marker date="1460737913089" expanded="true" signature="106457:106475" placeholder="..." />
-                <marker date="1460737913089" expanded="true" signature="181571:181591" placeholder="..." />
+                <marker date="1460749153028" expanded="true" signature="27308:27560" placeholder="SELECT SQL_C... ${$wpdb-&gt;posts}" />
+                <marker date="1460749153028" expanded="true" signature="38132:38369" placeholder="..." />
+                <marker date="1460749153028" expanded="true" signature="38276:38355" placeholder="..." />
+                <marker date="1460749153028" expanded="true" signature="38714:38912" placeholder="SELECT count... ${$wpdb-&gt;posts}" />
+                <marker date="1460749153028" expanded="true" signature="39210:39581" placeholder="..." />
+                <marker date="1460749153028" expanded="true" signature="73201:73253" placeholder="..." />
+                <marker date="1460749153028" expanded="true" signature="87755:87783" placeholder="..." />
+                <marker date="1460749153028" expanded="true" signature="112001:112019" placeholder="..." />
+                <marker date="1460749153028" expanded="true" signature="190495:190515" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -272,10 +161,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/fluid-baseline-grid/footer.php" />
+        <option value="$PROJECT_DIR$/../bjjtotal1/wp-content/plugins/youtube-embed-plus/youtube.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar-content.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" />
-        <option value="$PROJECT_DIR$/../bjjtotal1/wp-content/plugins/youtube-embed-plus/youtube.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
       </list>
     </option>
@@ -328,6 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -593,16 +486,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="defaultscss&#9;FILE&#9;file:///var/www/html/bjjtotal/wp-content/themes/gridster-lite/inc/defaults.css&#10;you&#9;FILE&#9;file:///var/www/html/bjjtotal/wp-content/plugins/youtube-embed-plus/youtube.php&#10;category.php&#9;FILE&#9;file:///var/www/html/bjjtotal/wp-includes/category.php&#10;category-te&#9;FILE&#9;file:///var/www/html/bjjtotal/wp-includes/category-template.php&#10;wp-blog-header.php&#9;FILE&#9;file:///var/www/html/bjjtotal/wp-blog-header.php&#10;youtube&#9;FILE&#9;file:///var/www/html/bjjtotal/wp-content/plugins/youtube-embed-plus/youtube.php&#10;category-template.php&#9;FILE&#9;file:///var/www/html/bjjtotal/wp-includes/category-template.php&#10;config&#9;FILE&#9;file:///var/www/html/bjjtotal/wp-config.php" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bjjtotal1/wp-content/plugins/youtube-embed-plus/youtube.php" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -683,7 +580,8 @@
       <workItem from="1460125201477" duration="5648000" />
       <workItem from="1460153451245" duration="24445000" />
       <workItem from="1460487251885" duration="6332000" />
-      <workItem from="1460715090330" duration="12890000" />
+      <workItem from="1460715090330" duration="14835000" />
+      <workItem from="1460748861135" duration="1987000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1459198615165</created>
@@ -867,34 +765,42 @@
       <option name="project" value="LOCAL" />
       <updated>1460732969127</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="right sidebar">
+      <created>1460739174651</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1460739174651</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78691000" />
+    <option name="totallyTimeSpent" value="82623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="57" width="1682" height="1024" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22916667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2765237" sideWeight="0.56311274" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20654628" sideWeight="0.28615198" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2765237" sideWeight="0.43688726" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20654628" sideWeight="0.7175245" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20654628" sideWeight="0.71384805" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14895156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.047404062" sideWeight="0.49754903" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2765237" sideWeight="0.43443626" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3837472" sideWeight="0.4834559" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -953,7 +859,8 @@
     <MESSAGE value="Fix video with category name is not clickable" />
     <MESSAGE value="***" />
     <MESSAGE value="Search icon in menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search icon in menu" />
+    <MESSAGE value="right sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="right sidebar" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1025,21 +932,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1650" column="9" selection-start-line="1650" selection-start-column="9" selection-end-line="1650" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/gridster-lite/inc/defaults.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1154,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,7 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,7 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,7 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1256,7 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="18" selection-start-line="14" selection-start-column="10" selection-end-line="19" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,7 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,7 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="195" column="34" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,7 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,7 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1343,7 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="375" column="98" selection-start-line="375" selection-start-column="98" selection-end-line="375" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,17 +1229,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="e#6#84#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="23" />
-          <folding />
+          <caret line="7" column="24" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1369,38 +1243,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfourteen/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="2475">
           <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1413,46 +1262,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fluid-baseline-grid/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../bjjtotal1/wp-content/plugins/youtube-embed-plus/youtube.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
+        <state relative-caret-position="190">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
           <folding>
-            <marker date="1460737913089" expanded="true" signature="25761:26013" placeholder="SELECT SQL_C... ${$wpdb-&gt;posts}" />
-            <marker date="1460737913089" expanded="true" signature="36586:36823" placeholder="..." />
-            <marker date="1460737913089" expanded="true" signature="36730:36809" placeholder="..." />
-            <marker date="1460737913089" expanded="true" signature="37168:37366" placeholder="SELECT count... ${$wpdb-&gt;posts}" />
-            <marker date="1460737913089" expanded="true" signature="37664:38035" placeholder="..." />
-            <marker date="1460737913089" expanded="true" signature="70234:70286" placeholder="..." />
-            <marker date="1460737913089" expanded="true" signature="83622:83650" placeholder="..." />
-            <marker date="1460737913089" expanded="true" signature="106457:106475" placeholder="..." />
-            <marker date="1460737913089" expanded="true" signature="181571:181591" placeholder="..." />
+            <marker date="1460748749516" expanded="true" signature="25760:26012" placeholder="SELECT SQL_C... ${$wpdb-&gt;posts}" />
+            <marker date="1460748749516" expanded="true" signature="36585:36822" placeholder="..." />
+            <marker date="1460748749516" expanded="true" signature="36729:36808" placeholder="..." />
+            <marker date="1460748749516" expanded="true" signature="37167:37365" placeholder="SELECT count... ${$wpdb-&gt;posts}" />
+            <marker date="1460748749516" expanded="true" signature="37663:38034" placeholder="..." />
+            <marker date="1460748749516" expanded="true" signature="70233:70285" placeholder="..." />
+            <marker date="1460748749516" expanded="true" signature="83621:83649" placeholder="..." />
+            <marker date="1460748749516" expanded="true" signature="106456:106474" placeholder="..." />
+            <marker date="1460748749516" expanded="true" signature="181570:181590" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="-21">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding>
-            <marker date="1460738934085" expanded="true" signature="11269:11506" placeholder="..." />
-            <marker date="1460738934085" expanded="true" signature="11413:11492" placeholder="..." />
-            <marker date="1460738934085" expanded="true" signature="11689:12060" placeholder="..." />
-            <marker date="1460738934085" expanded="true" signature="12184:12382" placeholder="SELECT count... ${$wpdb-&gt;posts}" />
-            <marker date="1460738934085" expanded="true" signature="16398:16650" placeholder="SELECT SQL_C... ${$wpdb-&gt;posts}" />
-            <marker date="1460738934085" expanded="true" signature="58985:59037" placeholder="..." />
-            <marker date="1460738934085" expanded="true" signature="89805:89833" placeholder="..." />
-            <marker date="1460738934085" expanded="true" signature="110138:110156" placeholder="..." />
-            <marker date="1460738934085" expanded="true" signature="188632:188652" placeholder="..." />
+            <marker date="1460749153028" expanded="true" signature="27308:27560" placeholder="SELECT SQL_C... ${$wpdb-&gt;posts}" />
+            <marker date="1460749153028" expanded="true" signature="38132:38369" placeholder="..." />
+            <marker date="1460749153028" expanded="true" signature="38276:38355" placeholder="..." />
+            <marker date="1460749153028" expanded="true" signature="38714:38912" placeholder="SELECT count... ${$wpdb-&gt;posts}" />
+            <marker date="1460749153028" expanded="true" signature="39210:39581" placeholder="..." />
+            <marker date="1460749153028" expanded="true" signature="73201:73253" placeholder="..." />
+            <marker date="1460749153028" expanded="true" signature="87755:87783" placeholder="..." />
+            <marker date="1460749153028" expanded="true" signature="112001:112019" placeholder="..." />
+            <marker date="1460749153028" expanded="true" signature="190495:190515" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="2" selection-start-column="8" selection-end-line="5" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="303" column="6" selection-start-line="303" selection-start-column="6" selection-end-line="303" selection-end-column="6" />
+        <state relative-caret-position="235">
+          <caret line="229" column="19" selection-start-line="229" selection-start-column="19" selection-end-line="229" selection-end-column="19" />
           <folding />
         </state>
       </provider>
