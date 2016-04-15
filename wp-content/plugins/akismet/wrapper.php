@@ -15,7 +15,7 @@ function akismet_http_post ( $request , $host , $path , $port = 80 , $ip = null 
 {
 	$path = str_replace ( '/1.1/' , '' , $path );
 	
-	return Akismet::http_post ( $request , $path , $ip );
+	return Akismet::http_post ( $request , $path , $ip ); 
 }
 
 function akismet_microtime ()
@@ -104,7 +104,7 @@ function akismet_comment_status_meta_box ( $comment )
 function akismet_comments_columns ( $columns )
 {
 	_deprecated_function ( __FUNCTION__ , '3.0' );
-	
+
 	return $columns;
 }
 
@@ -176,7 +176,7 @@ function akismet_get_server_connectivity ( $cache_timeout = 86400 )
 function akismet_server_connectivity_ok ()
 {
 	_deprecated_function ( __FUNCTION__ , '3.0' );
-	
+
 	return true;
 }
 
@@ -283,14 +283,14 @@ function akismet_fix_scheduled_recheck ()
 function akismet_spam_comments ()
 {
 	_deprecated_function ( __FUNCTION__ , '3.0' );
-	
+
 	return array();
 }
 
 function akismet_spam_totals ()
 {
 	_deprecated_function ( __FUNCTION__ , '3.0' );
-	
+
 	return array();
 }
 
@@ -312,7 +312,7 @@ function redirect_old_akismet_urls ()
 function akismet_kill_proxy_check ( $option )
 {
 	_deprecated_function ( __FUNCTION__ , '3.0' );
-	
+
 	return 0;
 }
 

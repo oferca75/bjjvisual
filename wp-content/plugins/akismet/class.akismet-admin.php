@@ -3,7 +3,7 @@
 class Akismet_Admin
 {
 	const NONCE = 'akismet-update-key';
-	
+
 	private static $initiated = false;
 	private static $notices = array();
 	private static $allowed = array(
@@ -44,7 +44,7 @@ class Akismet_Admin
 			wp_safe_redirect ( esc_url_raw ( self::get_page_url ( 'stats' ) ) , 301 );
 			die;
 		}
-		
+
 		self::$initiated = true;
 		
 		add_action ( 'admin_init' , array( 'Akismet_Admin' , 'admin_init' ) );
@@ -70,16 +70,16 @@ class Akismet_Admin
 	
 	public static function get_page_url ( $page = 'config' )
 	{
-		
+
 		$args = array( 'page' => 'akismet-key-config' );
-		
+
 		if ( $page == 'stats' )
 			$args = array( 'page' => 'akismet-key-config' , 'view' => 'stats' );
 		elseif ( $page == 'delete_key' )
 			$args = array( 'page' => 'akismet-key-config' , 'view' => 'start' , 'action' => 'delete-key' , '_wpnonce' => wp_create_nonce ( self::NONCE ) );
 		
 		$url = add_query_arg ( $args , class_exists ( 'Jetpack' ) ? admin_url ( 'admin.php' ) : admin_url ( 'options-general.php' ) );
-		
+
 		return $url;
 	}
 	
@@ -100,7 +100,7 @@ class Akismet_Admin
 		
 		$new_key = preg_replace ( '/[^a-f0-9]/i' , '' , $_POST[ 'key' ] );
 		$old_key = Akismet::get_api_key ();
-		
+
 		if ( empty( $new_key ) ) {
 			if ( !empty( $old_key ) ) {
 				delete_option ( 'wordpress_api_key' );
@@ -109,14 +109,14 @@ class Akismet_Admin
 		} elseif ( $new_key != $old_key ) {
 			self::save_key ( $new_key );
 		}
-		
+
 		return true;
 	}
 	
 	public static function save_key ( $api_key )
 	{
 		$key_status = Akismet::verify_key ( $api_key );
-		
+
 		if ( $key_status == 'valid' ) {
 			$akismet_user = self::get_akismet_user ( $api_key );
 			
@@ -147,7 +147,7 @@ class Akismet_Admin
 				$akismet_user = json_decode ( $subscription_verification[ 1 ] );
 			}
 		}
-		
+
 		return $akismet_user;
 	}
 	
@@ -187,7 +187,7 @@ class Akismet_Admin
 	{
 		$settings_link = '<a href="' . esc_url ( self::get_page_url () ) . '">' . __ ( 'Settings' , 'akismet' ) . '</a>';
 		array_unshift ( $links , $settings_link );
-		return $links;
+		return $links; 
 	}
 	
 	public static function load_resources ()
@@ -220,9 +220,9 @@ class Akismet_Admin
 			) );
 		}
 	}
-	
+
 	// WP 2.5+
-	
+
 	/**
 	 * Add help to the Akismet page
 	 *
@@ -231,7 +231,7 @@ class Akismet_Admin
 	public static function admin_help ()
 	{
 		$current_screen = get_current_screen ();
-		
+
 		// Screen Content
 		if ( current_user_can ( 'manage_options' ) ) {
 			if ( !Akismet::get_api_key () || ( isset( $_GET[ 'view' ] ) && $_GET[ 'view' ] == 'start' ) ) {
@@ -320,7 +320,7 @@ class Akismet_Admin
 				);
 			}
 		}
-		
+
 		// Help Sidebar
 		$current_screen->set_help_sidebar (
 			'<p><strong>' . esc_html__ ( 'For more information:' , 'akismet' ) . '</strong></p>' .
@@ -336,7 +336,7 @@ class Akismet_Admin
 		
 		if ( !$count = get_option ( 'akismet_spam_count' ) )
 			return;
-		
+
 		global $submenu;
 		
 		echo '<h3>' . esc_html ( _x ( 'Spam' , 'comments' , 'akismet' ) ) . '</h3>';
@@ -371,17 +371,17 @@ class Akismet_Admin
 		} else {
 			$queue_text = sprintf ( __ ( "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment." , 'akismet' ) , esc_url ( $link ) );
 		}
-		
+
 		$text = $intro . '<br />' . $queue_text;
 		echo "<p class='akismet-right-now'>$text</p>\n";
 	}
-	
+
 	// Adds an 'x' link next to author URLs, clicking will remove the author URL and show an undo link
 	
 	public static function get_spam_count ( $type = false )
 	{
 		global $wpdb;
-		
+
 		if ( !$type ) { // total
 			$count = wp_cache_get ( 'akismet_spam_count' , 'widget' );
 			if ( false === $count ) {
@@ -426,7 +426,7 @@ class Akismet_Admin
 		
 		if ( !( isset( $_GET[ 'recheckqueue' ] ) || ( isset( $_REQUEST[ 'action' ] ) && 'akismet_recheck_queue' == $_REQUEST[ 'action' ] ) ) )
 			return;
-		
+
 		$paginate = '';
 		if ( isset( $_POST[ 'limit' ] ) && isset( $_POST[ 'offset' ] ) ) {
 			$paginate = $wpdb->prepare ( " LIMIT %d OFFSET %d" , array( $_POST[ 'limit' ] , $_POST[ 'offset' ] ) );
@@ -514,13 +514,13 @@ class Akismet_Admin
 			}
 		}
 	}
-	
+
 	// Total spam in queue
 	// get_option( 'akismet_spam_count' ) is the total caught ever
 	
 	public static function comment_row_action ( $a , $comment )
 	{
-		
+
 		// failsafe for old WP versions
 		if ( !function_exists ( 'add_comment_meta' ) )
 			return $a;
@@ -545,7 +545,7 @@ class Akismet_Admin
 			else
 				$desc = sprintf ( __ ( 'Un-spammed by %s' , 'akismet' ) , $who );
 		}
-		
+
 		// add a History item to the hover links, just after Edit
 		if ( $akismet_result ) {
 			$b = array();
@@ -558,10 +558,10 @@ class Akismet_Admin
 					$b[ 'history' ] = '<a href="comment.php?action=editcomment&amp;c=' . $comment->comment_ID . '#akismet-status" title="' . esc_attr__ ( 'View comment history' , 'akismet' ) . '"> ' . esc_html__ ( 'History' , 'akismet' ) . '</a>';
 				}
 			}
-			
+
 			$a = $b;
 		}
-		
+
 		if ( $desc )
 			echo '<span class="akismet-status" commentid="' . $comment->comment_ID . '"><a href="comment.php?action=editcomment&amp;c=' . $comment->comment_ID . '#akismet-status" title="' . esc_attr__ ( 'View comment history' , 'akismet' ) . '">' . esc_html ( $desc ) . '</a></span>';
 		
@@ -573,20 +573,20 @@ class Akismet_Admin
 			$comment_count = intval ( $comment_count );
 			echo '<span class="akismet-user-comment-count" commentid="' . $comment->comment_ID . '" style="display:none;"><br><span class="akismet-user-comment-counts">' . sprintf ( esc_html ( _n ( '%s approved' , '%s approved' , $comment_count , 'akismet' ) ) , number_format_i18n ( $comment_count ) ) . '</span></span>';
 		}
-		
+
 		return $a;
 	}
-	
+
 	// Check connectivity between the WordPress blog and Akismet's servers.
 	// Returns an associative array of server IP addresses, where the key is the IP address, and value is true (available) or false (unable to connect).
 	
 	public static function comment_status_meta_box ( $comment )
 	{
 		$history = Akismet::get_comment_history ( $comment->comment_ID );
-		
+
 		if ( $history ) {
 			echo '<div class="akismet-history" style="margin: 13px;">';
-			
+
 			foreach ( $history as $row ) {
 				$time = date ( 'D d M Y @ h:i:m a' , $row[ 'time' ] ) . ' GMT';
 				
@@ -664,14 +664,14 @@ class Akismet_Admin
 						break;
 					
 				}
-				
+
 				echo '<div style="margin-bottom: 13px;">';
 				echo '<span style="color: #999;" alt="' . $time . '" title="' . $time . '">' . sprintf ( esc_html__ ( '%s ago' , 'akismet' ) , human_time_diff ( $row[ 'time' ] ) ) . '</span>';
 				echo ' - ';
 				echo esc_html ( $message );
 				echo '</div>';
 			}
-			
+
 			echo '</div>';
 		}
 	}
@@ -683,10 +683,10 @@ class Akismet_Admin
 		if ( $file == plugin_basename ( plugin_dir_url ( __FILE__ ) . '/akismet.php' ) ) {
 			$links[] = '<a href="' . esc_url ( self::get_page_url () ) . '">' . esc_html__ ( 'Settings' , 'akismet' ) . '</a>';
 		}
-		
+
 		return $links;
 	}
-	
+
 	// Check the server connectivity and store the available servers in an option. 
 	
 	public static function connect_jetpack_user ()
@@ -793,7 +793,7 @@ class Akismet_Admin
 					self::save_key ( $akismet_user->api_key );
 					self::display_notice ();
 					self::display_configuration_page ();
-					return;
+					return;				
 				}
 			}
 		}
@@ -818,15 +818,15 @@ class Akismet_Admin
 		}
 		
 		$stat_totals = self::get_stats ( $api_key );
-		
+
 		// If unset, create the new strictness option using the old discard option to determine its default
 		if ( get_option ( 'akismet_strictness' ) === false )
 			add_option ( 'akismet_strictness' , ( get_option ( 'akismet_discard_month' ) === 'true' ? '1' : '0' ) );
-		
+
 		if ( empty( self::$notices ) ) {
 			//show status
 			if ( !empty( $stat_totals[ 'all' ] ) && isset( $stat_totals[ 'all' ]->time_saved ) && $akismet_user->status == 'active' && $akismet_user->account_type == 'free-api-key' ) {
-				
+
 				$time_saved = false;
 				
 				if ( $stat_totals[ 'all' ]->time_saved > 1800 ) {
@@ -834,7 +834,7 @@ class Akismet_Admin
 					$total_in_hours = round ( $total_in_minutes / 60 );
 					$total_in_days = round ( $total_in_hours / 8 );
 					$cleaning_up = __ ( 'Cleaning up spam takes time.' , 'akismet' );
-					
+
 					if ( $total_in_days > 1 )
 						$time_saved = $cleaning_up . ' ' . sprintf ( _n ( 'Akismet has saved you %s day!' , 'Akismet has saved you %s days!' , $total_in_days , 'akismet' ) , number_format_i18n ( $total_in_days ) );
 					elseif ( $total_in_hours > 1 )
@@ -869,7 +869,7 @@ class Akismet_Admin
 				$stat_totals[ $interval ] = json_decode ( $response[ 1 ] );
 			}
 		}
-		
+
 		return $stat_totals;
 	}
 	
@@ -947,7 +947,7 @@ class Akismet_Admin
 					}
 				} else
 					Akismet::view ( 'notice' , compact ( 'type' ) );
-			}
+			}				
 		}
 	}
 	

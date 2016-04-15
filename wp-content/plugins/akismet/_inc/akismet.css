@@ -2,57 +2,46 @@
 #submitted-on {
     position: relative;
 }
-
 #the-comment-list .author .akismet-user-comment-count {
     display: inline;
 }
-
 #the-comment-list .author a span {
     text-decoration: none;
     color: #999;
 }
-
 #the-comment-list .author a span.akismet-span-link {
     text-decoration: inherit;
     color: inherit;
 }
-
 #the-comment-list .remove_url {
     margin-left: 3px;
     color: #999;
     padding: 2px 3px 2px 0;
 }
-
 #the-comment-list .remove_url:hover {
     color: #A7301F;
     font-weight: bold;
     padding: 2px 2px 2px 0;
 }
-
 #dashboard_recent_comments .akismet-status {
     display: none;
 }
-
 .akismet-status {
     float: right;
 }
-
 .akismet-status a {
     color: #AAA;
     font-style: italic;
 }
-
 table.comments td.comment p a {
     text-decoration: underline;
 }
-
 table.comments td.comment p a:after {
     content: attr(href);
     color: #aaa;
     display: inline-block; /* Show the URL without the link's underline extending under it. */
     padding: 0 1ex; /* Because it's inline block, we can't just use spaces in the content: attribute to separate it from the link text. */
 }
-
 .mshot-arrow {
     width: 0;
     height: 0;
@@ -63,7 +52,6 @@ table.comments td.comment p a:after {
     left: -6px;
     top: 91px;
 }
-
 .mshot-container {
     background: #5C5C5C;
     position: absolute;
@@ -76,18 +64,15 @@ table.comments td.comment p a:after {
     border-radius: 6px;
     -webkit-border-radius: 6px;
 }
-
 .akismet-mshot {
     position: absolute;
     z-index: 100;
 }
-
 .akismet-mshot .mshot-image {
     margin: 0;
     height: 338px;
     width: 450px;
 }
-
 h2.ak-header {
     padding: 30px;
     background: #649316 url('img/logo-full-2x.png') no-repeat 20px center;
@@ -96,11 +81,9 @@ h2.ak-header {
     text-indent: -9999em;
     margin-right: 10px;
 }
-
 .checkforspam {
     display: inline-block !important;
 }
-
 .checkforspam-spinner {
     display: inline-block;
     margin-top: 7px;
@@ -118,12 +101,10 @@ h2.ak-header {
     overflow: hidden;
     padding: 20px;
 }
-
 .activate-option.clicked {
     background: #649316;
     color: #fff;
 }
-
 .activate-option.clicked:hover {
     background: #68802E;
     color: #fff;
@@ -151,11 +132,9 @@ h2.ak-header {
 .activate-highlight h3 {
     margin: 0 0 0.3em;
 }
-
 .activate-highlight p {
     color: #777;
 }
-
 .activate-highlight .button-primary {
     margin-top: 15px;
 }
@@ -172,38 +151,31 @@ h2.ak-header {
 .alert-text {
     color: #dd3d36;
 }
-
 .success {
     color: #649316;
 }
-
 .option-description {
     float: left;
     font-size: 16px;
 }
-
 .option-description span {
     color: #666;
     display: block;
     font-size: 14px;
     margin-top: 5px;
 }
-
 .option-action {
     float: right;
 }
-
 .key-config-link {
     font-size: 14px;
     margin-left: 20px;
 }
-
 .jetpack-account {
     float: left;
     font-size: 18px;
     margin-right: 40px;
 }
-
 .small-heading {
     color: #777;
     display: block;
@@ -212,7 +184,6 @@ h2.ak-header {
     margin-bottom: 5px;
     text-transform: uppercase;
 }
-
 .inline-label {
     background: #ddd;
     border-radius: 3px;
@@ -220,16 +191,13 @@ h2.ak-header {
     padding: 3px 8px;
     text-transform: uppercase;
 }
-
 .inline-label.alert {
     background: #e54747;
     color: #fff;
 }
-
 .jetpack-account .inline-label {
     margin-left: 5px;
 }
-
 .option-action .manual-key {
     margin-top: 7px;
 }
@@ -363,6 +331,7 @@ h2.ak-header {
     font-size: 14px;
     font-weight: normal;
 }
+
 
 .new-snapshot.settings ul li {
     border: none;
