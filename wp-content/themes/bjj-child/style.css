@@ -139,17 +139,59 @@ h1, div[itemprop="articleBody"] {
 }
 
 .bop-nav-search input, .bop-nav-search label, .bop-nav-search {
-    width: 80px;
+    width: 250px;
+}
+
+.bop-nav-search {
+    padding: 3px !important;
+
 }
 
 .bop-nav-search input {
-    height: 15px;
+    height: 30px;
     margin: 3px;
 }
 
 .bop-nav-search .search-submit {
     background: white;
-    height: 17px;
+    height: 31px;
     width: auto;
-    margin: 4px;
+    margin: 5px;
+    top: 6px;
+    margin-left: -25px;
+    margin-right: -2px;
+}
+
+nav {
+    position: fixed !important;
+    top: 0px;
+    /*height: 58px;*/
+    padding: 0px;
+    left: 0px;
+}
+
+nav input + div {
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: #594c2d;
+}
+
+.sf-menu li {
+    background-color: #594c2d;
+    height: 20px;
+    padding: 15px;
+}
+
+#wpadminbar {
+    opacity: 0.2;
+    width: 50%;
+    right: 0px;
+    left: inherit;
+}
+
+#wpadminbar ul#wp-admin-bar-root-default > li {
+    margin-right: 0;
+    float: right;
+    right: 0px;
 }

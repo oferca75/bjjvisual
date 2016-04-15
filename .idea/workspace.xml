@@ -1,198 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="***">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/img/magnifying-glass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/display-categories-widget/screenshot-1.png" afterPath="$PROJECT_DIR$/wp-content/plugins/display-categories-widget/screenshot-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/display-categories-widget/screenshot-2.png" afterPath="$PROJECT_DIR$/wp-content/plugins/display-categories-widget/screenshot-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/display-categories-widget/screenshot-3.png" afterPath="$PROJECT_DIR$/wp-content/plugins/display-categories-widget/screenshot-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/screenshot-1.png" afterPath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/screenshot-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/screenshot-2.png" afterPath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/screenshot-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-cs_CZ.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-cs_CZ.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-es_ES.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-es_ES.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-it_IT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-it_IT.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-ru_RU.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-sk_SK.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-sk_SK.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/screenshot-1.png" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/screenshot-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/screenshot-2.png" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/screenshot-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font/FontAwesome.otf" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/css/img/info.png" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/css/img/info.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/css/img/warning.png" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/css/img/warning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/images/st-cat-01.png" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/images/st-cat-01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/images/st-cat-02.png" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/images/st-cat-02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/images/widget.png" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/images/widget.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/images/arrow_red_right.png" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/images/arrow_red_right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/images/categories-icon.png" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/images/categories-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/languages/st-categories-wp-en_US.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/languages/st-categories-wp-en_US.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/assets/languages/wpasw-en_GB.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/assets/languages/wpasw-en_GB.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/screenshot-1.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/screenshot-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/screenshot-2.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/screenshot-2.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/screenshot-3.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/screenshot-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/screenshot-4.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/screenshot-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/screenshot-5.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/screenshot-5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/images/wp-database-backup.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/images/wp-database-backup.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/img/wp-database-backup.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/img/wp-database-backup.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/img/wp_database_backup.jpeg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/img/wp_database_backup.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/screenshot1.jpeg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/screenshot1.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/screenshot2.jpeg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/screenshot2.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/screenshot3.jpeg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/screenshot3.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/screenshot4.jpeg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/screenshot4.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/wp-database-backup.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/wp-database-backup.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/wp-database-backup150.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/wp-database-backup150.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/wp_database_backup574.jpeg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/wp_database_backup574.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/ajax-loader_c.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/ajax-loader_c.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/alert_24.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/alert_24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/archives_22.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/archives_22.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/category_22.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/category_22.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/check_16.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/check_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/delete-icon_16.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/delete-icon_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/delete-icon_24.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/delete-icon_24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/edit_16.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/edit_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/edit_24.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/edit_24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/error_24.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/error_24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/folder_22.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/folder_22.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/home_22.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/home_22.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/horizontal_16.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/horizontal_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/logo.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/no_image_128.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/no_image_128.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/paper_22.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/paper_22.png" />
+    <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="Search icon in menu">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/form.js" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/get.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/get.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/start.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/stats.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/stats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/strict.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/strict.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/debug-my-plugin/class.debugmyplugin_panel.php" afterPath="$PROJECT_DIR$/wp-content/plugins/debug-my-plugin/class.debugmyplugin_panel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/debug-my-plugin/debug-my-plugin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/debug-my-plugin/debug-my-plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/display-categories-widget/display_categories_widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/display-categories-widget/display_categories_widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/display-categories-widget/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/display-categories-widget/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/css/accordian.css" afterPath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/css/accordian.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/css/superfish.css" afterPath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/css/superfish.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/focal_wp23.php" afterPath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/focal_wp23.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/focal_wp28.php" afterPath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/focal_wp28.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/js/accordian.js" afterPath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/js/accordian.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/js/superfish.js" afterPath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/js/superfish.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/wp23_folding_cats.php" afterPath="$PROJECT_DIR$/wp-content/plugins/folding-category-widget/wp23_folding_cats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/LICENSE" afterPath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/googleanalytics.php" afterPath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/googleanalytics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/options.php" afterPath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/options.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/googleanalytics/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hello.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/gnu-gpl.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/gnu-gpl.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/jcl.js" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/jcl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/jquery-categories-list.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/jquery-categories-list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-cs_CZ.po" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-cs_CZ.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-es_ES.po" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-es_ES.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-it_IT.po" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-it_IT.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-ru_RU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-sk_SK.po" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n-sk_SK.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n.po" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/lang/jcl_i18n.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/jquery-categories-list/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/shortcode-widget/class-shortcode-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/shortcode-widget/class-shortcode-widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/shortcode-widget/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/shortcode-widget/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/shortcode-widget/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/shortcode-widget/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/admin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font-awesome-ie7.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font-awesome-ie7.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/font/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/style - Copy.css" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/style - Copy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/css/documenter_style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/css/documenter_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/google-code-prettify/prettify.css" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/google-code-prettify/prettify.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/google-code-prettify/prettify.js" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/google-code-prettify/prettify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/jquery.easing.js" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/jquery.easing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/jquery.js" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/jquery.scrollTo.js" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/jquery.scrollTo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/script.js" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/assets/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/index.html" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/doc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/js/button.js" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/js/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/languages/st-categories-wp-en_US.po" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/languages/st-categories-wp-en_US.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/st-categories-wp.php" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/st-categories-wp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/st-category-wp/widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/assets/js/wpasw.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/assets/js/wpasw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/assets/languages/wpasw-en_GB.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/assets/languages/wpasw-en_GB.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/composer.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/readme.md" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/wp-ajax-search-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/wp-ajax-search-widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/bootstrap.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/classes/wp-category-tag-cloud.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/classes/wp-category-tag-cloud.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/classes/wpctc-module.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/classes/wpctc-module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/classes/wpctc-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/classes/wpctc-settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/classes/wpctc-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/classes/wpctc-widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/css/wpctc.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/css/wpctc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/css/wpctc.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/css/wpctc.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/jquery.style.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/jquery.style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/jquery.style.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/jquery.style.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/jquery.tagcanvas.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/jquery.tagcanvas.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wp-category-tag-cloud-admin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wp-category-tag-cloud-admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wp-category-tag-cloud-admin.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wp-category-tag-cloud-admin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wp-category-tag-cloud.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wp-category-tag-cloud.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wp-category-tag-cloud.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wp-category-tag-cloud.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wpctc.tagcanvas.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wpctc.tagcanvas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wpctc.tagcanvas.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/javascript/wpctc.tagcanvas.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/views/requirements-error.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/views/requirements-error.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/views/wpctc-settings/page-settings-fields.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/views/wpctc-settings/page-settings-fields.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/views/wpctc-settings/page-settings-section-headers.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/views/wpctc-settings/page-settings-section-headers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/views/wpctc-settings/page-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-category-tag-could/views/wpctc-settings/page-settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/LICENSE.TXT" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/LICENSE.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/config.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/jquery.dataTables.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/jquery.dataTables.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/wpdb_admin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/css/wpdb_admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/fonts/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/fonts/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/js/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/js/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/js/jquery.dataTables.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/assets/js/jquery.dataTables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/Dropbox/DropboxClient.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/Dropbox/DropboxClient.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/Dropbox/OAuthSimple.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/Dropbox/OAuthSimple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/Dropbox/dropboxupload.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/Dropbox/dropboxupload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/Dropbox/tokens/access.token" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/Dropbox/tokens/access.token" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/FTP/check-repo.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/FTP/check-repo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/FTP/ftp-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/FTP/ftp-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/FTP/preflight.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/FTP/preflight.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/FTP/sendaway.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/FTP/sendaway.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/FTP/test-ftp.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/FTP/test-ftp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/wp-backup-destination.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/wp-backup-destination.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/admin_header_notification.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/admin_header_notification.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/class-wpdb-admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/class-wpdb-admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/template_email_notification.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/template_email_notification.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/readme.txt.bak" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/readme.txt.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/wp-database-backup.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/wp-database-backup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/wp-database-backup.php.bak" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/wp-database-backup.php.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/css/admin-css.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/css/admin-css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/css/css.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/css/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
     </list>
     <ignored path="untitled.iws" />
@@ -279,8 +89,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+            <state relative-caret-position="406">
+              <caret line="160" column="23" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -290,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/wp-ajax-search-widget.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="205">
-              <caret line="174" column="34" selection-start-line="174" selection-start-column="28" selection-end-line="174" selection-end-column="34" />
+              <caret line="195" column="34" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -664,7 +474,7 @@
       <workItem from="1460125201477" duration="5648000" />
       <workItem from="1460153451245" duration="24445000" />
       <workItem from="1460487251885" duration="6332000" />
-      <workItem from="1460715090330" duration="5422000" />
+      <workItem from="1460715090330" duration="7396000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1459198615165</created>
@@ -834,11 +644,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460728009163</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Search icon in menu">
+      <created>1460731014895</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1460731014895</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71223000" />
+    <option name="totallyTimeSpent" value="73197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="57" width="1682" height="1024" extended-state="6" />
@@ -919,7 +736,8 @@
     <MESSAGE value="Fix size too big on archive page" />
     <MESSAGE value="Fix video with category name is not clickable" />
     <MESSAGE value="***" />
-    <option name="LAST_COMMIT_MESSAGE" value="***" />
+    <MESSAGE value="Search icon in menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search icon in menu" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1368,7 +1186,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-ajax-search-widget/wp-ajax-search-widget.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
-          <caret line="174" column="34" selection-start-line="174" selection-start-column="28" selection-end-line="174" selection-end-column="34" />
+          <caret line="195" column="34" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1383,8 +1201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+        <state relative-caret-position="406">
+          <caret line="160" column="23" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
           <folding />
         </state>
       </provider>
