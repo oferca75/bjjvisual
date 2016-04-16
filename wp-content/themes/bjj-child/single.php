@@ -35,7 +35,7 @@ get_header (); ?>
                     the_title ( '<h1 itemprop="headline" class="entry-title">' , ( $pg_num > 0 ) ? ' (Page ' . $pg_num . ')</h1>' : '</h1>' );
                     if (function_exists('yoast_breadcrumb')) {
                         yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
-                    } 
+                    }
                     if ( $pg_num < 2 ) :
                         if ( has_post_thumbnail () ) { ?>
                             <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
@@ -113,6 +113,7 @@ get_header (); ?>
         if ( !$isPosition ) {
             ?>
             <h2><span class="next-moves">Next moves:</span></h2>
+            <br><br>
         <?php } ?>
         <div class="cf <?php echo !$isPosition ? 'blurred' : ""; ?>">
             <?php
