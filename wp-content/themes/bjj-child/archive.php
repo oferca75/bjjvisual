@@ -23,6 +23,12 @@
     }
     echo category_description();
 
+    $catId = get_query_var('cat');
+    $queryParams = array('posts_per_page' => 20,
+        'category__in' => array($catId),
+    );
+
+    $next_moves = query_posts($queryParams);
     if ( have_posts () ) :
         get_template_part ( 'loop' );
         ?>

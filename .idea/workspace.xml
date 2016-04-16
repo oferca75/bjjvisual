@@ -2,160 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="ux">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/post_128.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/post_128.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/post_22.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/post_22.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/success2_24.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/success2_24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/success_24.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/success_24.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/tag_22.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/tag_22.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/upgrade.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/upgrade.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/vertical_16.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/vertical_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/wp-tree.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/images/wp-tree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/languages/ar.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/languages/ar.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/languages/en.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/languages/en.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/30px.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/30px.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/32px.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/32px.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/40px.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/40px.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-bold-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-bold-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-bold-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-bold-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-bold-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-bold-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-extralight-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-extralight-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-extralight-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-extralight-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-extralight-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-extralight-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-regular-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-regular-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-regular-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-regular-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-regular-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-regular-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/throbber.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/throbber.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/30px.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/30px.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/32px.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/32px.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-bold-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-bold-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-bold-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-bold-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-bold-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-bold-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-extralight-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-extralight-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-extralight-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-extralight-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-extralight-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-extralight-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-regular-webfont.eot" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-regular-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-regular-webfont.ttf" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-regular-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-regular-webfont.woff" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-regular-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/throbber.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/throbber.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/32px.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/32px.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/32px_line.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/32px_line.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/32px_original.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/32px_original.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/40px.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/40px.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/throbber.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/throbber.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/screenshot-1.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/screenshot-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/screenshot-2.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/screenshot-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/screenshot-3.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/screenshot-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/screenshot-4.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/screenshot-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/screenshot-5.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/screenshot-5.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/Dropbox/dropboxupload.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-database-backup/includes/admin/Destination/Dropbox/dropboxupload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/js/admin-js.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/js/admin-js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/js/js.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/js/js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/languages/ar.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/languages/ar.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/languages/en.po" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/languages/en.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/bootstrap/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/LICENSE" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/README.md" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/colpick.jquery.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/colpick.jquery.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/css/colpick.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/css/colpick.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/htm.html" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/htm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/js/colpick.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/colpick-jQuery-Color-Picker/js/colpick.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/HELP-US-OUT.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/animated.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/bordered-pulled.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/core.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/fixed-width.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/font-awesome.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/icons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/larger.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/path.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/rotated-flipped.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/stacked.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_animated.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_fixed-width.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_larger.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_path.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_stacked.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/font-awesome/scss/font-awesome.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jquery-ui.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jquery-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/.gitignore" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/LICENSE-MIT" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/LICENSE-MIT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/README.md" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/README.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/bower.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/gruntfile.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/package.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/base.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/base.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-bold-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-bold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-extralight-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-extralight-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-regular-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/fonts/titillium/titilliumweb-regular-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/style.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/default/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/main.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/mixins.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/base.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/base.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-bold-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-bold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-extralight-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-extralight-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-regular-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/fonts/titillium/titilliumweb-regular-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/main.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/mixins.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/responsive.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/responsive.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/style.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/proton/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/responsive.less" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree-bootstrap-theme/src/themes/responsive.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/LICENSE-MIT" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/LICENSE-MIT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/README.md" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/jstree.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/jstree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/jstree.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/jstree.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/style.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/dist/themes/default/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/jstree.jquery.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/jstree/jstree.jquery.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/mceplugin/mceplugin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/mceplugin/mceplugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/mceplugin/mceplugin_x4.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/lib/mceplugin/mceplugin_x4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/options.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/options.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/organizational-chart-and-posts-tree.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/organizational-chart-and-posts-tree.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/tree-website-map.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/tree-website-map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/uninstall.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/uninstall.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/views/admin/map-edit.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/views/admin/map-edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/views/admin/maps-view.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/views/admin/maps-view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/views/admin/vertical_map.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/views/admin/vertical_map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/views/front/horizontal_map.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/views/front/horizontal_map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/wp-tree.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quick-organizational-tree/wp-tree.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
     </list>
     <ignored path="untitled.iws" />
@@ -182,8 +30,8 @@
       <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="112" column="42" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
+            <state relative-caret-position="161">
+              <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -192,7 +40,7 @@
       <file leaf-file-name="loop.php" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="418">
               <caret line="22" column="33" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <marker date="1460797509214" expanded="true" signature="1506:1554" placeholder="..." />
@@ -201,68 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="technique3.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/img/technique3.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" selection-start-line="22" selection-start-column="5" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="107" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="321" column="30" selection-start-line="321" selection-start-column="30" selection-end-line="321" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header-archive.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/header-archive.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+            <state relative-caret-position="162">
+              <caret line="468" column="12" selection-start-line="468" selection-start-column="12" selection-end-line="468" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -302,9 +103,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" />
       </list>
     </option>
   </component>
@@ -718,7 +519,7 @@
       <workItem from="1460487251885" duration="6332000" />
       <workItem from="1460715090330" duration="14835000" />
       <workItem from="1460748861135" duration="22790000" />
-      <workItem from="1460799576279" duration="12797000" />
+      <workItem from="1460799576279" duration="13841000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1459198615165</created>
@@ -972,11 +773,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460806114703</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="ux">
+      <created>1460828311983</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1460828311983</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116223000" />
+    <option name="totallyTimeSpent" value="117267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="225" y="57" width="1260" height="1023" extended-state="0" />
@@ -1474,16 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <marker date="1460797509214" expanded="true" signature="1506:1554" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fluid-baseline-grid/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1510,26 +1308,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="22" selection-start-column="5" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="468" column="12" selection-start-line="468" selection-start-column="12" selection-end-line="468" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <marker date="1460797509214" expanded="true" signature="1506:1554" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="112" column="42" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
+        <state relative-caret-position="161">
+          <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="321" column="30" selection-start-line="321" selection-start-column="30" selection-end-line="321" selection-end-column="30" />
+        <state relative-caret-position="450">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding />
         </state>
       </provider>
