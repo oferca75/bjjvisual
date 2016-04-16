@@ -5,7 +5,7 @@
     <?php endif; ?>
 </div>
 <footer class="g3 cf">
-    <small>&copy; <?php echo date('Y'); ?> <?php bloginfo('name') ?>.</small>
+    <small>&copy; <?php echo date('Y'); ?><a href="mailto:ofer4k@gmail.com"> <?php bloginfo('name') ?>.</a></small>
 </footer>
 <?php wp_footer(); ?>
 </body>
