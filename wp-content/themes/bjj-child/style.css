@@ -240,7 +240,7 @@ side sidebar styles
 }
 
 #sidebar-side {
-    width: 17%;
+    width: 20%;
     margin-left: 0;
     padding-left: 1%;
     float: right;
@@ -254,7 +254,7 @@ side sidebar styles
 
 @media only screen and (max-width: 2000px) {
     #sidebar-side {
-        width: 17%;
+        width: 20%;
         height: 100%;
     }
 }
@@ -385,7 +385,7 @@ h2 {
 }
 
 h2 span {
-    top: 100px;
+    top: 110px;
     position: relative;
     display: block;
 }
@@ -510,4 +510,9 @@ ul li.menu-item:first-child {
     clear: both;
     margin: 1.5em;
     color: #594c2d;
+}
+
+article iframe {
+    border: 3px solid;
+    border-radius: 2px;
 }

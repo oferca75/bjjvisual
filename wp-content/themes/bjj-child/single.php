@@ -14,14 +14,14 @@ get_header(); ?>
         if (have_posts()) :
             while (have_posts()) : the_post();
 
-                $posttags = get_the_tags();
-                if ($posttags && !$_GET["ov"]) {
-                    foreach ($posttags as $tag) {
-                        if ($tag->name == "position") {
-                            $isPosition = true;
-                        }
-                    }
-                }
+//                $posttags = get_the_tags();
+//                if ($posttags && !$_GET["ov"]) {
+//                    foreach ($posttags as $tag) {
+//                        if ($tag->name == "position") {
+//                            $isPosition = true;
+//                        }
+//                    }
+//                }
 
                 // breadcrumbs for the WordPress SEO Plugin by Yoast- if you want to use this, uncomment the line, below:
                 //if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<p id="breadcrumbs">','</p>'); } 
