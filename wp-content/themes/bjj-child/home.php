@@ -10,10 +10,9 @@
 
     <div class="post intro">
         <!--        <h1> Brazilian JiuJitsu Techniques</h1>-->
-        <p> Bjj Flux was created in order to give a unique experience to the Brazilian JuJitsu online student. No more
-            namedroppings !<br>
-            Instead is a collection of live videos ordered in a fight flow that enables you to see and decide in "real
-            time" where to go next. Enjoy ! </p>
+        <p> Bjj Flux ! A visual guide to Brazilian Jiu Jitsu techniques arranged by actual fight flow. No more technique
+            namedroppings.<br>
+            Pick your preferred category and explore possible moves and submission.</p>
         <br>
         <?php
         ( $post->post_title ) ? $post->post_title : '';

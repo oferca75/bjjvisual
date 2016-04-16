@@ -108,8 +108,8 @@ h1, div[itemprop="articleBody"] {
 .blurred .portfoliooverlay, .blurred .portfoliooverlay:hover {
     background-color: white;
     opacity: 0.65;
-    top: 48px;
-    height: 61%;
+    top: 50px;
+    height: 67%;
     margin-left: 2%;
 }
 
@@ -155,16 +155,17 @@ h1, div[itemprop="articleBody"] {
 }
 
 .bop-nav-search input {
-    height: 30px;
+    height: 26px;
     margin: 3px;
+    margin-top: 5px;
 }
 
 .bop-nav-search .search-submit {
     background: white;
-    height: 31px;
+    height: 24px;
     width: auto;
     margin: 5px;
-    top: 6px;
+    top: 8px;
     margin-left: -25px;
     margin-right: -2px;
 }
@@ -216,7 +217,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 aside#widget-area-top {
     background: #F7F3DA;
     padding: 10px 2% 20px 2%;
-    margin-top: -5px;
+    margin-top: 26px;
+    border-bottom: 15px solid #EEE8C9;
 }
 
 /******************************************************************
@@ -369,6 +371,7 @@ h2 {
     /*margin-left: 1%;*/
     /*margin-right: 1%;*/
     padding-bottom: 0px;
+    text-align: left;
 }
 
 h2 span {
@@ -399,6 +402,7 @@ li.jcl_category {
 
 #primary-post article {
     width: 100%;
+    margin-top: 26px;
 }
 
 #primary-post h1 {
@@ -407,13 +411,13 @@ li.jcl_category {
     width: 98%;
 }
 
-body: {
+body {
     background-image: none;
 }
 
-/*body.custom-background {*/
-/*background-image: none !important;*/
-/*}*/
+body.custom-background {
+    background-image: none !important;
+}
 
 h1, h2, h3, h4 {
     font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
@@ -453,4 +457,29 @@ ul li.menu-item:first-child {
 
 .post h2 {
     width: 100%;
+}
+
+.technique-icon {
+    background: #A28E4B;
+    border-radius: 5px;
+    display: inline;
+    margin: 0px;
+    margin-right: 10px;
+    height: 25px;
+    padding: 3px;
+    margin-bottom: -7px;
+}
+
+.post {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+#primary-post .post {
+    border: none;
+}
+
+#content .cf {
+    clear: both;
 }
