@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="ux">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
     </list>
     <ignored path="untitled.iws" />
@@ -89,8 +88,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="108" column="65" selection-start-line="108" selection-start-column="65" selection-end-line="108" selection-end-column="65" />
+            <state relative-caret-position="177">
+              <caret line="317" column="7" selection-start-line="315" selection-start-column="3" selection-end-line="317" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -566,7 +565,7 @@
       <workItem from="1460487251885" duration="6332000" />
       <workItem from="1460715090330" duration="14835000" />
       <workItem from="1460748861135" duration="22790000" />
-      <workItem from="1460799576279" duration="6280000" />
+      <workItem from="1460799576279" duration="6356000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1459198615165</created>
@@ -806,23 +805,30 @@
       <option name="project" value="LOCAL" />
       <updated>1460801212368</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="ux">
+      <created>1460806035723</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1460806035723</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109706000" />
+    <option name="totallyTimeSpent" value="109782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="57" width="1682" height="1024" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13419117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13419117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33522084" sideWeight="0.58026963" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33484164" sideWeight="0.58026963" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33522084" sideWeight="0.4197304" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33484164" sideWeight="0.4197304" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20588236" sideWeight="0.7107843" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14895156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1362,8 +1368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="108" column="65" selection-start-line="108" selection-start-column="65" selection-end-line="108" selection-end-column="65" />
+        <state relative-caret-position="177">
+          <caret line="317" column="7" selection-start-line="315" selection-start-column="3" selection-end-line="317" selection-end-column="7" />
           <folding />
         </state>
       </provider>

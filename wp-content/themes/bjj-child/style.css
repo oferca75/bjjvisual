@@ -313,9 +313,9 @@ article.post-box[id*="post-"] {
 }
 
 @media only screen and (min-width: 600px) {
-    #content {
-        width: 7 5%;
-    }
+    /*#content {*/
+    /*width: 75%;*/
+    /*}*/
 
     h1, h2 {
         margin-bottom: 0.7em;
