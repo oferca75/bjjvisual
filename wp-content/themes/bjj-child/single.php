@@ -133,7 +133,10 @@ get_header(); ?>
 
     <?php } ?>
 
+    <?php
+    comments_template();
 
+    ?>
 
     <?php if (is_active_sidebar('post-sidebar')) : ?>
         <aside class="g1 sidebar">

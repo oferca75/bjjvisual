@@ -105,7 +105,9 @@ h1, div[itemprop="articleBody"] {
     color: white;
     height: 100%;
 }
-.blurred .portfoliooverlay, .blurred .portfoliooverlay:hover {
+
+.blurred .portfoliooverlay, /*.blurred .portfoliooverlay:hover */
+{
     background-color: white;
     opacity: 0.65;
     top: 50px;
@@ -113,6 +115,9 @@ h1, div[itemprop="articleBody"] {
     margin-left: 2%;
 }
 
+.cf.blurred {
+    margin-top: 60px;
+}
 .portfoliooverlay:hover {
     -webkit-transition: border-bottom 1s ease-in-out;
     opacity: 1;
@@ -375,7 +380,7 @@ h2 {
 }
 
 h2 span {
-    top: 34px;
+    top: 100px;
     position: relative;
     display: block;
 }
@@ -479,13 +484,16 @@ ul li.menu-item:first-child {
     border-top: 1px solid lightgrey;
 }
 
+.single-post .post {
+    border-top: none;
+}
 #primary-post .post {
     border: none;
 }
 
-#content .cf {
-    clear: both;
-}
+/*#content .cf {*/
+/*clear: both;*/
+/*}*/
 
 .archive #content {
     margin-top: 26px;
