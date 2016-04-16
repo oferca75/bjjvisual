@@ -307,7 +307,7 @@ article.post-box[id*="post-"] {
 
 @media only screen and (min-width: 600px) {
     #content {
-        width: 85%;
+        width: 7 5%;
     }
 
     h1, h2 {
@@ -323,21 +323,18 @@ article.post-box[id*="post-"] {
 }
 
 #content {
-    padding: 13px 10px 20px 28px;
+    padding: 0px 10px 20px 28px;
 }
-/**/
 
-/*.g1, .g2, .g3 {*/
-/*float: none;*/
-/*}*/
 
 .g1.post, .g2.post, .g3.post, h2 {
     padding: 2%;
+    padding-top: 0px;
 }
 
 @media only screen and (min-width: 1024px) {
     .g1 {
-        width: 26.333%;
+        width: 25.333%;
     }
 }
 
@@ -407,7 +404,7 @@ li.jcl_category {
 
 #primary-post h1 {
     border-bottom: 1px solid #99742e;
-    height: 43px;
+    height: 66px;
     width: 98%;
 }
 
@@ -418,3 +415,39 @@ body: {
 /*body.custom-background {*/
 /*background-image: none !important;*/
 /*}*/
+
+h1, h2, h3, h4 {
+    font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+}
+
+#breadcrumbs strong {
+    color: #99742e;
+}
+
+.bop-nav-search:hover {
+    background: inherit !important;
+}
+
+.bop-nav-search .search-field {
+    font-size: 14px;
+}
+
+ul li.menu-item:first-child {
+    background: url(img/bjj-flux.png);
+    background-size: cover;
+    background-position: 0px;
+    content: "";
+}
+
+.menu-item:first-child a {
+    opacity: 0;
+}
+
+.post.intro p {
+    text-align: center;
+    /*width: 50%;*/
+    color: #594c2d;
+    margin-top: 1em;
+    font-size: 18px;
+    text-align: left;
+}

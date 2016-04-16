@@ -8,8 +8,12 @@
 <?php get_sidebar (); ?>
 <div id="content" style="text-align: center" class="cf">
 
-    <div class="post">
+    <div class="post intro">
         <!--        <h1> Brazilian JiuJitsu Techniques</h1>-->
+        <p> Bjj Flux was created in order to give a unique experience to the Brazilian JuJitsu online student. No more
+            namedroppings !<br>
+            Instead is a collection of live videos ordered in a fight flow that enables you to see and decide in "real
+            time" where to go next. Enjoy ! </p>
         <br>
         <?php
         ( $post->post_title ) ? $post->post_title : '';

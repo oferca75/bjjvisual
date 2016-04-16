@@ -5,10 +5,15 @@
 //    } ?>
 <!--</aside>-->
 
-<?php get_sidebar (); ?>
+<?php get_sidebar();
+
+?>
 
 <div id="content" class="cf">
     <?php
+    if (function_exists('yoast_breadcrumb')) {
+        yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
+    }
     if ( have_posts () ) :
         get_template_part ( 'loop' );
         ?>

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="right sidebar">
+    <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="ux">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/img/bjj-flux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/img/bjjflux.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/img/bjjflux.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/home.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
     </list>
@@ -32,20 +35,20 @@
       <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+            <state relative-caret-position="476">
+              <caret line="37" column="22" selection-start-line="35" selection-start-column="20" selection-end-line="37" selection-end-column="22" />
               <folding>
-                <marker date="1460755327627" expanded="true" signature="6297:6376" placeholder="..." />
+                <marker date="1460758538040" expanded="true" signature="6460:6539" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loop.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loop.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -64,18 +67,38 @@
       <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="12" selection-start-line="2" selection-start-column="8" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="437">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="417" selection-end-column="3" />
+            <state relative-caret-position="400">
+              <caret line="445" column="11" selection-start-line="445" selection-start-column="11" selection-end-line="445" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -86,16 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/fluid-baseline-grid/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -131,16 +144,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/fluid-baseline-grid/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -167,17 +170,17 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/header-home.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/bop-search-box-item-type-for-nav-menus/plugin.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/fluid-baseline-grid/footer.php" />
         <option value="$PROJECT_DIR$/../bjjtotal1/wp-content/plugins/youtube-embed-plus/youtube.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar-content.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
       </list>
     </option>
   </component>
@@ -512,8 +515,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wp-content/themes/bjj-child" />
       <recent name="$PROJECT_DIR$/wp-content/themes/bjj-child/img" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/bjj-child" />
       <recent name="$PROJECT_DIR$/wp-content/themes/bjj-child/ttf" />
       <recent name="$PROJECT_DIR$/wp-content/themes/gridster-lite/img" />
       <recent name="$PROJECT_DIR$/wp-content/themes" />
@@ -590,7 +593,7 @@
       <workItem from="1460153451245" duration="24445000" />
       <workItem from="1460487251885" duration="6332000" />
       <workItem from="1460715090330" duration="14835000" />
-      <workItem from="1460748861135" duration="8228000" />
+      <workItem from="1460748861135" duration="14415000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1459198615165</created>
@@ -788,11 +791,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460750855817</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="ux">
+      <created>1460757677275</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1460757677275</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88864000" />
+    <option name="totallyTimeSpent" value="95051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="57" width="1682" height="1024" extended-state="6" />
@@ -876,7 +886,8 @@
     <MESSAGE value="***" />
     <MESSAGE value="Search icon in menu" />
     <MESSAGE value="right sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="right sidebar" />
+    <MESSAGE value="ux" />
+    <option name="LAST_COMMIT_MESSAGE" value="ux" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1140,13 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fluid-baseline-grid/header-archive.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1187,6 +1191,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,6 +1229,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="375" column="98" selection-start-line="375" selection-start-column="98" selection-end-line="375" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,13 +1240,6 @@
           <folding>
             <element signature="e#6#84#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1309,14 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="2" selection-start-column="8" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -1335,14 +1326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="417" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/header-archive.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1351,20 +1334,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+        <state relative-caret-position="476">
+          <caret line="37" column="22" selection-start-line="35" selection-start-column="20" selection-end-line="37" selection-end-column="22" />
           <folding>
-            <marker date="1460755327627" expanded="true" signature="6297:6376" placeholder="..." />
+            <marker date="1460758538040" expanded="true" signature="6460:6539" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="445" column="11" selection-start-line="445" selection-start-column="11" selection-end-line="445" selection-end-column="11" />
           <folding />
         </state>
       </provider>
