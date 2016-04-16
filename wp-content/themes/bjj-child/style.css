@@ -501,7 +501,7 @@ ul li.menu-item:first-child {
     margin-top: 26px;
 }
 
-#content > p {
+#cat-desc {
     clear: both;
     margin: 1.5em;
     color: #594c2d;
@@ -520,6 +520,6 @@ article iframe {
 
 #content > h2 {
     padding-left: 1.5em;
-    margin-top: 13%;
+    margin-top: 50%;
 
 }

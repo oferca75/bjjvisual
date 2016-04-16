@@ -108,7 +108,11 @@ get_header(); ?>
     $title = isset($post->post_title) ? $post->post_title : '';
     $catId = get_cat_ID($title);
     if ($catId) {
+        ?><div id="cat-desc"><?php
         echo category_description($catId);
+        ?>
+        </div><?php
+
     }
     $queryParams = array('posts_per_page' => 20,
         'category__in' => array($catId),
