@@ -106,18 +106,19 @@ h1, div[itemprop="articleBody"] {
     height: 100%;
 }
 
-.blurred .portfoliooverlay, /*.blurred .portfoliooverlay:hover */
-{
+.blurred .portfoliooverlay, .blurred .portfoliooverlay:hover {
     background-color: white;
     opacity: 0.65;
-    top: 50px;
+    top: 48px;
     height: 67%;
     margin-left: 2%;
+    border: none !important;
 }
 
 .cf.blurred {
     margin-top: 60px;
 }
+
 .portfoliooverlay:hover {
     -webkit-transition: border-bottom 1s ease-in-out;
     opacity: 1;
@@ -244,12 +245,16 @@ side sidebar styles
     padding-left: 1%;
     float: right;
     height: 100%;
-    margin-top: 45px;
+    margin-top: 26px;
+}
+
+.home #sidebar-side {
+    margin-top: 26px;
 }
 
 @media only screen and (max-width: 2000px) {
     #sidebar-side {
-        width: 20%;
+        width: 17%;
         height: 100%;
     }
 }
@@ -313,9 +318,10 @@ article.post-box[id*="post-"] {
 }
 
 @media only screen and (min-width: 600px) {
-    /*#content {*/
-    /*width: 75%;*/
-    /*}*/
+    #content {
+        width: 75%;
+        display: inline-table;
+    }
 
     h1, h2 {
         margin-bottom: 0.7em;
@@ -325,7 +331,7 @@ article.post-box[id*="post-"] {
 
 @media only screen and (min-width: 1024px) {
     .g3, h2 span {
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -333,14 +339,13 @@ article.post-box[id*="post-"] {
     padding: 0px 10px 20px 28px;
 }
 
-
 .g1.post, .g2.post, .g3.post, h2 {
-    padding: 0% 4%;
+    /*padding: 0% 4%;*/
 }
 
 @media only screen and (min-width: 1024px) {
     .g1 {
-        width: 15.333%;
+        width: 31.333%;
     }
 }
 
@@ -397,7 +402,7 @@ li.jcl_category {
 @media only screen and (max-width: 1424px) {
 
     .g1, .g2, .g3 {
-        margin-right: 10%;
+        margin-right: 3%;
     }
 }
 
@@ -461,8 +466,9 @@ ul li.menu-item:first-child {
 }
 
 .post h2 {
-    width: 115%;
+    width: 200%;
     font-size: 16px;
+    margin-left: 20px;
 }
 
 .technique-icon {
@@ -487,6 +493,7 @@ ul li.menu-item:first-child {
 .single-post .post {
     border-top: none;
 }
+
 #primary-post .post {
     border: none;
 }
@@ -497,4 +504,10 @@ ul li.menu-item:first-child {
 
 .archive #content {
     margin-top: 26px;
+}
+
+#content p {
+    clear: both;
+    margin: 1.5em;
+    color: #594c2d;
 }

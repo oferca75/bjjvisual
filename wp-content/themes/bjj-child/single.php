@@ -108,14 +108,20 @@ get_header(); ?>
     <?php
     global $post;
     $title = isset($post->post_title) ? $post->post_title : '';
+    $catId = get_cat_ID($title);
+    if ($catId) {
+        echo category_description($catId);
+    }
     $queryParams = array('posts_per_page' => 20,
-        'category__in' => array(get_cat_ID($title)),
+        'category__in' => array($catId),
     );
     if (!$isPosition) {
         $queryParams['post__not_in'] = array($post->ID);
     }
     $next_moves = query_posts($queryParams);
     if (count($next_moves) > 0) {
+
+
         if (!$isPosition) {
             ?>
             <h2><span class="next-moves">Next moves:</span></h2>

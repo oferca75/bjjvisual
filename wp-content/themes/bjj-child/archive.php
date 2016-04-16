@@ -21,6 +21,7 @@
     if (function_exists('yoast_breadcrumb')) {
         yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
     }
+    echo category_description();
 
     if ( have_posts () ) :
         get_template_part ( 'loop' );
