@@ -79,8 +79,6 @@ get_header(); ?>
                                 <?php
                                 if (!$isPosition) {
                                     the_content();
-                                } else {
-                                    ?><br><?php
                                 }
                                 ?>
                             </div>
@@ -125,7 +123,6 @@ get_header(); ?>
         if (!$isPosition) {
             ?>
             <h2><span class="next-moves">Next moves:</span></h2>
-            <br><br>
         <?php } ?>
         <div class="cf <?php echo !$isPosition ? 'blurred' : ""; ?>">
             <?php

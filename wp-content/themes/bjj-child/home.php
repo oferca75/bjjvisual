@@ -10,9 +10,9 @@
 
     <div class="post intro">
         <!--        <h1> Brazilian JiuJitsu Techniques</h1>-->
-        <p> Bjj Flux ! A visual guide to Brazilian Jiu Jitsu techniques arranged by actual fight flow. No more technique
-            namedroppings.<br>
-            Pick your preferred category and explore possible moves and submission.</p>
+        <p> Bjj Visual ! A collection of instructional videos arranged as a visual guide to Brazilian Jiu Jitsu
+            techniques by actual fight flow.<br>
+            No more technique namedroppings. Pick your preferred category and explore possible moves and strategies.</p>
         <br>
         <?php
         ( $post->post_title ) ? $post->post_title : '';

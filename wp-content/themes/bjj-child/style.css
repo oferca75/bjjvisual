@@ -111,13 +111,10 @@ h1, div[itemprop="articleBody"] {
     opacity: 0.65;
     top: 48px;
     height: 67%;
-    margin-left: 2%;
+    /*margin-left: 2%;*/
     border: none !important;
 }
 
-.cf.blurred {
-    margin-top: 60px;
-}
 
 .portfoliooverlay:hover {
     -webkit-transition: border-bottom 1s ease-in-out;
@@ -385,7 +382,6 @@ h2 {
 }
 
 h2 span {
-    top: 110px;
     position: relative;
     display: block;
 }
@@ -468,7 +464,6 @@ ul li.menu-item:first-child {
 .post h2 {
     width: 100%;
     font-size: 16px;
-    margin-left: 20px;
 }
 
 .technique-icon {
@@ -506,13 +501,25 @@ ul li.menu-item:first-child {
     margin-top: 26px;
 }
 
-#content p {
+#content > p {
     clear: both;
     margin: 1.5em;
     color: #594c2d;
+    float: left;
+    text-indent: 30px;
 }
 
 article iframe {
     border: 3px solid;
     border-radius: 2px;
+}
+
+.cf.blurred {
+    padding: 1.5em;
+}
+
+#content > h2 {
+    padding-left: 1.5em;
+    margin-top: 13%;
+
 }
