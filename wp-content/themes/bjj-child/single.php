@@ -54,7 +54,7 @@ get_header(); ?>
                                 </div>
                                 <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta
                                         itemprop="name" content="<?php echo get_bloginfo(); ?>"/></span>
-                            <?php } ?>
+                            <?php } ?>      
                             <p class="postmetadata"><em><span class="updated" itemprop="datePublished"
                                                               content="<?php echo get_the_time("Y-m-d"); ?>"><?php
                                         the_time(get_option('date_format')); ?></span>
@@ -79,6 +79,16 @@ get_header(); ?>
                                 <?php
                                 if (!$isPosition) {
                                     the_content();
+                                    global $post;
+                                    $title = isset($post->post_title) ? $post->post_title : '';
+                                    $catId = get_cat_ID($title);
+                                    if ($catId) {
+                                        ?><div id="cat-desc"><?php
+                                        echo category_description($catId);
+                                        ?>
+                                        </div><?php
+
+                                    }
                                 }
                                 ?>
                             </div>
@@ -104,16 +114,7 @@ get_header(); ?>
         ?>
     </div>
     <?php
-    global $post;
-    $title = isset($post->post_title) ? $post->post_title : '';
-    $catId = get_cat_ID($title);
-    if ($catId) {
-        ?><div id="cat-desc"><?php
-        echo category_description($catId);
-        ?>
-        </div><?php
 
-    }
     $queryParams = array('posts_per_page' => 20,
         'category__in' => array($catId),
     );

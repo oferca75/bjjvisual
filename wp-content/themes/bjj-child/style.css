@@ -7,10 +7,12 @@
  Template:       fluid-baseline-grid
  Version:        1.0.0
 */
+
 @import url("../fluid-baseline-grid/style.css");
 
 /* =Theme customization starts here
 ------------------------------------------------------- */
+
 /*
 .post iframe {
 
@@ -94,6 +96,7 @@ h1, div[itemprop="articleBody"] {
 }
 
 */
+
 .portfoliooverlay {
     position: absolute;
     left: 0px;
@@ -102,7 +105,8 @@ h1, div[itemprop="articleBody"] {
     height: 100%;
 }
 
-.blurred .portfoliooverlay, .blurred .portfoliooverlay:hover {
+.blurred .portfoliooverlay,
+.blurred .portfoliooverlay:hover {
     background-color: white;
     opacity: 0.65;
     top: 48px;
@@ -110,7 +114,6 @@ h1, div[itemprop="articleBody"] {
     /*margin-left: 2%;*/
     border: none !important;
 }
-
 
 .portfoliooverlay:hover {
     -webkit-transition: border-bottom 1s ease-in-out;
@@ -133,7 +136,10 @@ h1, div[itemprop="articleBody"] {
     transition: all 0.5s ease-out;
 }
 
-.bop-nav-search input, .bop-nav-search label, .bop-nav-search span, .bop-nav-search {
+.bop-nav-search input,
+.bop-nav-search label,
+.bop-nav-search span,
+.bop-nav-search {
     opacity: 1;
     display: block;
     width: 100%;
@@ -144,13 +150,14 @@ h1, div[itemprop="articleBody"] {
     height: 20px;
 }
 
-.bop-nav-search input, .bop-nav-search label, .bop-nav-search {
+.bop-nav-search input,
+.bop-nav-search label,
+.bop-nav-search {
     width: 250px;
 }
 
 .bop-nav-search {
     padding: 3px !important;
-
 }
 
 .bop-nav-search input {
@@ -208,9 +215,20 @@ body {
     /*margin: 0 auto;*/
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
     padding: 0% 2%;
-
 }
 
 aside#widget-area-top {
@@ -220,9 +238,11 @@ aside#widget-area-top {
     border-bottom: 15px solid #EEE8C9;
 }
 
+
 /******************************************************************
 side sidebar styles
 ******************************************************************/
+
 #main {
     width: 73%;
     float: left;
@@ -316,15 +336,19 @@ article.post-box[id*="post-"] {
         display: inline-table;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
         margin-bottom: 0.7em;
         margin-top: 0.7em;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .g3, h2 span {
-        width: 100%;
+    .g3,
+    h2 span {
+        display: inline-table;
+        position: relative;
+        float: left;
     }
 }
 
@@ -332,7 +356,10 @@ article.post-box[id*="post-"] {
     padding: 0px 10px 20px 28px;
 }
 
-.g1.post, .g2.post, .g3.post, h2 {
+.g1.post,
+.g2.post,
+.g3.post,
+h2 {
     /*padding: 0% 4%;*/
 }
 
@@ -342,7 +369,10 @@ article.post-box[id*="post-"] {
     }
 }
 
-a, h1, h4, h2 {
+a,
+h1,
+h4,
+h2 {
     color: #99742e;
 }
 
@@ -358,11 +388,13 @@ article {
     float: left;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-size: 21px;
 }
 
-h4, ul {
+h4,
+ul {
     font-size: 14px;
 }
 
@@ -386,14 +418,17 @@ li.jcl_category {
     border: none !important;
 }
 
-.g1, .g2, .g3 {
+.g1,
+.g2,
+.g3 {
     margin-left: 0%;
     margin-right: 0%;
 }
 
 @media only screen and (max-width: 1424px) {
-
-    .g1, .g2, .g3 {
+    .g1,
+    .g2,
+    .g3 {
         margin-right: 3%;
     }
 }
@@ -421,7 +456,10 @@ body.custom-background {
     background-image: none !important;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
 }
 
@@ -477,7 +515,12 @@ ul li.menu-item:first-child {
     border-bottom: 1px solid lightgrey;
 }
 
-.post:nth-child(1), .post:nth-child(2), .post:nth-child(3), .post:nth-child(4), .post:nth-child(5), .post:nth-child(6) {
+.post:nth-child(1),
+.post:nth-child(2),
+.post:nth-child(3),
+.post:nth-child(4),
+.post:nth-child(5),
+.post:nth-child(6) {
     border-top: 1px solid lightgrey;
 }
 
@@ -489,8 +532,11 @@ ul li.menu-item:first-child {
     border: none;
 }
 
+
 /*#content .cf {*/
+
 /*clear: both;*/
+
 /*}*/
 
 .archive #content {
@@ -498,11 +544,12 @@ ul li.menu-item:first-child {
 }
 
 #cat-desc {
-    clear: both;
-    margin: 1.5em;
     color: #594c2d;
-    float: left;
+    float: right;
     text-indent: 30px;
+    display: inline;
+    position: relative;
+    width: 45%;
 }
 
 article iframe {
@@ -517,7 +564,6 @@ article iframe {
 #content > h2 {
     padding-left: 1.5em;
     margin-top: 70%;
-
 }
 
 .next-moves {
@@ -536,4 +582,8 @@ article iframe {
 #cat-desc p::first-letter {
     font-family: cloister;
     font-size: 26px;
+}
+
+div[itemprop="articleBody"] > p {
+    display: inline;
 }

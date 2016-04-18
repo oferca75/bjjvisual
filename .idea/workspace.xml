@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="ux">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/header-archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/header-archive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/header-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/header-home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
     </list>
@@ -34,8 +30,8 @@
       <file leaf-file-name="single.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1203">
-              <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+            <state relative-caret-position="268">
+              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -66,8 +62,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="519" column="0" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
+            <state relative-caret-position="1217">
+              <caret line="567" column="0" selection-start-line="567" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -534,7 +530,7 @@
       <workItem from="1460715090330" duration="14835000" />
       <workItem from="1460748861135" duration="22790000" />
       <workItem from="1460799576279" duration="17142000" />
-      <workItem from="1460832988259" duration="2920000" />
+      <workItem from="1460832988259" duration="3698000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1459198615165</created>
@@ -823,11 +819,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460835783836</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="ux">
+      <created>1460987856525</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1460987856525</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123488000" />
+    <option name="totallyTimeSpent" value="124266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="57" width="1682" height="1024" extended-state="6" />
@@ -1352,8 +1355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="519" column="0" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
+        <state relative-caret-position="1217">
+          <caret line="567" column="0" selection-start-line="567" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1368,8 +1371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1203">
-          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+        <state relative-caret-position="268">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
           <folding />
         </state>
       </provider>
