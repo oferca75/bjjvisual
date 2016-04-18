@@ -122,15 +122,14 @@ get_header(); ?>
     }
     $next_moves = query_posts($queryParams);
     if (count($next_moves) > 0) {
-
-
         if (!$isPosition) {
             ?>
-            <h2><span class="next-moves">Next moves:</span></h2>
+
         <?php } ?>
         <div class="cf <?php echo !$isPosition ? 'blurred' : ""; ?>">
             <?php
             if (have_posts()) :
+                ?><h2><span class="next-moves">Next moves:</span></h2><?php
                 set_query_var('post_title', $title);
                 get_template_part('loop');
                 ?>

@@ -59,10 +59,6 @@ h1, div[itemprop="articleBody"] {
     text-align: center;
 }
 
-.next-moves {
-    padding: 20px;
-    line-height: 150px;
-} 
 .portfoliooverlay span {
     font-size: 40px;
     font-weight: bold;
@@ -328,7 +324,7 @@ article.post-box[id*="post-"] {
 
 @media only screen and (min-width: 1024px) {
     .g3, h2 span {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -414,7 +410,7 @@ li.jcl_category {
 #primary-post h1 {
     border-bottom: 1px solid #99742e;
     height: 38px;
-    width: 98%;
+    width: 100%;
 }
 
 body {
@@ -520,6 +516,24 @@ article iframe {
 
 #content > h2 {
     padding-left: 1.5em;
-    margin-top: 50%;
+    margin-top: 70%;
 
+}
+
+.next-moves {
+    border-bottom: 1px solid #99742e;
+    height: 38px;
+    clear: both;
+    width: 100%;
+}
+
+@font-face {
+    font-family: cloister;
+    src: url(ttf/CloisterBlack.ttf);
+    font-weight: normal;
+}
+
+#cat-desc p::first-letter {
+    font-family: cloister;
+    font-size: 26px;
 }
