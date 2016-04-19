@@ -1,6 +1,6 @@
 /*
  Theme Name:     BJJ Child Theme
- Theme URI:      http://www.elegantthemes.com/gallery/foxy/testaaasss
+ Theme URI:      http://www.elegantthemes.com/gallery/foxy/
  Description:    BJJ Child Theme
  Author:         Elegant Themes
  Author URI:     http://www.elegantthemes.com
@@ -192,12 +192,165 @@ nav input + div {
   background-color: #594c2d;
 }
 
+.home nav input + div, .home .g3 {
+  position: static !important;
+
+}
+
+.home nav ul {
+  width: auto;
+  background-color: white;
+  position: static;
+  /*  top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+
+.home #content {
+  width: 100%;
+  background-color: white;
+  /*   position: fixed;
+    top:80%;
+    left: 57%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+
+.home .g1, .home .g2, .home .g3 {
+  float: none;
+  display: inline-block;
+  background-color: white !important;
+  margin-top: 20px;
+}
 .sf-menu li {
   background-color: #594c2d;
   height: 20px;
   padding: 15px;
+  border: none;
 }
 
+.home .sf-menu li {
+  background-color: white;
+  display: none;
+}
+
+.home .post {
+  border: none !important;
+  width: auto;
+  margin: 30px;
+}
+
+.home .sf-menu li.bop-nav-search {
+  display: block;
+}
+
+.home .sf-menu li.bop-nav-search input.search-field {
+  text-align: left;
+  border: 1px solid #999;
+  width: 550px;
+  max-width: 95%;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  padding-right: 0.5em;
+  border-radius: 2px;
+  align-self: center;
+  font-size: 16px;
+  padding: 0.7em 1em;
+  margin: 30px;
+
+}
+
+body.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 180px;
+
+}
+
+.home .bop-nav-search label,
+.home .bop-nav-search {
+  width: 550px;
+}
+
+.site-title {
+  font-size: 48px;
+  color: #A28E4B;
+  font-family: Georgia;
+}
+
+.menu-item a {
+  font-family: Georgia;
+}
+
+.site-desc {
+  color: #A28E4B;
+}
+
+.home .bop-nav-search .search-submit {
+  background: white;
+  height: 36px;
+  width: auto;
+  /* margin: 5px; */
+  top: 38px;
+  margin-left: -4px;
+  margin-right: 20px;
+}
+
+.home .postmetadata, .home nav > label {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .home nav input + div > ul {
+    display: block !important;
+  }
+
+  .home .bop-nav-search label,
+  .home form.bop-nav-search, .home .sf-menu li.bop-nav-search input.search-field {
+    width: 100px !important;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home nav input + div > ul {
+    display: block !important;
+  }
+
+  .home .bop-nav-search .search-submit {
+
+    margin-left: 60px;
+  }
+
+  .home .bop-nav-search label,
+  .home form.bop-nav-search, .home .sf-menu li.bop-nav-search input.search-field {
+    width: 220px !important;
+    margin-left: 40px;
+  }
+}
+
+.home .home-posts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
+  flex-wrap: wrap;
+}
+
+.home .home-posts .navigation {
+  display: none;
+}
+
+.home footer {
+  position: absolute !important;
+  bottom: 10px;
+  left: 10px;
+}
 #wpadminbar {
   opacity: 0.4;
   width: 50%;
@@ -336,7 +489,6 @@ article.post-box[id*="post-"] {
     width: 75%;
     display: inline-table;
   }
-
   h1,
   h2 {
     margin-bottom: 0.7em;
@@ -476,7 +628,7 @@ h4 {
   font-size: 14px;
 }
 
-ul li.menu-item:first-child {
+/* ul li.menu-item:first-child {
   background: url(img/bjj-flux.png);
   background-size: cover;
   background-position: 0px;
@@ -485,7 +637,7 @@ ul li.menu-item:first-child {
 
 .menu-item:first-child a {
   opacity: 0;
-}
+} */
 
 .post.intro p {
   text-align: center;
@@ -506,10 +658,10 @@ ul li.menu-item:first-child {
   border-radius: 5px;
   display: inline;
   margin: 0px;
-  margin-right: 10px;
+  margin-right: 6px;
   height: 25px;
   padding: 3px;
-  margin-bottom: -7px;
+  margin-bottom: -2px;
 }
 
 .post {
@@ -552,9 +704,8 @@ ul li.menu-item:first-child {
   text-indent: 30px;
   display: inline;
   position: relative;
-
 }
- 
+
 article iframe {
   border: 3px solid;
   border-radius: 2px;
@@ -646,5 +797,3 @@ div[itemprop="articleBody"] > p {
     width: 100%;
   }
 }
-  
-   
