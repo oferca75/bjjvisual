@@ -33,10 +33,11 @@ get_header(); ?>
                               itemid="<?php echo get_permalink(); ?>"/>
                         <?php
                         $pg_num = fluid_baseline_grid_page_number();
+                        $pageText = ($pg_num > 0) ? ' (Page ' . $pg_num . ')' : "";
+                        $postTitle = eliminateKeywords(get_the_title());
 
-                        $postTitle = get_the_title();
+                        echo '<h1 itemprop="headline" class="entry-title">' . $postTitle . $pageText . '</h1>';
 
-                        the_title('<h1 itemprop="headline" class="entry-title">', ($pg_num > 0) ? ' (Page ' . $pg_num . ')</h1>' : '</h1>');
                         if (function_exists('yoast_breadcrumb')) {
                             yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
                         }
@@ -128,7 +129,13 @@ get_header(); ?>
         <div class="cf <?php echo !$isPosition ? 'blurred' : ""; ?>">
             <?php
             if (have_posts()) :
-                ?><h2><span class="next-moves">Next moves:</span></h2><?php
+                if (endsWith($postTitle, "sitions")) {
+                    $str = str_replace("Positions", "", $postTitle);
+                    $dispStr = "Positions from the " . $str;
+                } else {
+                    $dispStr = "Options from the " . eliminateKeywords($postTitle);
+                }
+                ?><h2><span class="next-moves"><?php echo $dispStr ?> :</span></h2><?php
                 set_query_var('post_title', $title);
                 get_template_part('loop');
                 ?>
@@ -151,4 +158,7 @@ get_header(); ?>
         </aside>
     <?php endif; ?>
 </div>
-<?php get_footer(); ?>
+<?php
+
+
+get_footer(); ?>

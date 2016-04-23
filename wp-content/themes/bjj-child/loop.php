@@ -2,6 +2,7 @@
 
 $post_count = 0;
 
+
 while (have_posts()) :
     the_post();
     if ($post_count > 0 && $post_count % 3 == 0) {
@@ -21,6 +22,8 @@ if (is_sticky() && get_query_var('paged') < 2) {
     <?php
 
     $postTitle = get_the_title();
+    $postTitle = eliminateKeywords($postTitle);
+
     if ($postTitle): ?>
         <div class="portfoliooverlay"><a href="<?php
 
@@ -33,7 +36,7 @@ if (is_sticky() && get_query_var('paged') < 2) {
 
             ?>"> </a></div>
         <h2>
-            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?>
+            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php echo $postTitle ?>"><?php echo $postTitle ?>
             </a>
         </h2>
         <!--        --><?php //if (has_post_thumbnail()) the_post_thumbnail('featured-img', array('class' => 'alignnone'));

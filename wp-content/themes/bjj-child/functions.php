@@ -22,9 +22,23 @@ function child_register_sidebar(){
 }
 
 
-add_action('wp_head', 'add_my_script');
-
-function add_my_script()
+/**
+ * @param $postTitle
+ * @return mixed
+ */
+function eliminateKeywords($postTitle)
 {
-    wp_enqueue_script('custom', get_template_directory_uri() . '/js/custom.js');
+    $postTitle = str_replace("Top", "", $postTitle);
+    $postTitle = str_replace("Bottom", "", $postTitle);
+//    if (endsWith($postTitle,"ass")) {
+//        $postTitle = str_replace("pass", "", $postTitle);
+//        $postTitle = str_replace("Pass", "", $postTitle);
+//    }
+    return $postTitle;
+}
+
+function endsWith($haystack, $needle)
+{
+    // search forward starting from end minus needle length characters
+    return $needle === "" || (($temp = strlen($haystack) - strlen($needle)) >= 0 && strpos($haystack, $needle, $temp) !== false);
 }

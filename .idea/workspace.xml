@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="black theme">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/js/cutom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+    <list default="true" id="144c580a-08d8-45f3-bdfd-fa84bd0df975" name="Default" comment="remove autoplay in small videos">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/img/downarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/img/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/img/loading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/img/orangearrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/img/wallpaper1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php" afterPath="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,26 +28,67 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="untitled" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="loop.php" pinned="true" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php">
+      <file leaf-file-name="standard_2.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="293" column="9" selection-start-line="293" selection-start-column="9" selection-end-line="293" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="youtube.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="131" column="20" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="20" />
+              <folding>
+                <marker date="1461428046014" expanded="true" signature="2134:2196" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="2825:2935" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="2831:2928" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="3033:3259" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="3037:3259" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="3084:3185" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="3352:3438" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="3868:4038" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="3964:4031" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="4438:4722" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="4902:5072" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="5790:5901" placeholder="..." />
+                <marker date="1461428046014" expanded="true" signature="7430:7506" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standard_1.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="762" column="9" selection-start-line="762" selection-start-column="9" selection-end-line="762" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youtube.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="-24">
               <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding>
                 <marker date="1461413595524" expanded="true" signature="27358:27610" placeholder="SELECT SQL_C... ${$wpdb-&gt;posts}" />
@@ -59,11 +105,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="224" column="31" selection-start-line="224" selection-start-column="31" selection-end-line="224" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1461306695000" expanded="true" signature="358:387" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="396">
+              <caret line="36" column="7" selection-start-line="33" selection-start-column="6" selection-end-line="36" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -89,51 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loader.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/better-analytics/js/loader.php">
+      <file leaf-file-name="loop.php" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-admin/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load-styles.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-admin/load-styles.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load-scripts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-admin/load-scripts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-ajax.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-admin/admin-ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,15 +196,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/fluid-baseline-grid/footer.php" />
         <option value="$PROJECT_DIR$/../bjjtotal1/wp-content/plugins/youtube-embed-plus/youtube.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar-content.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/js/cutom.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php" />
       </list>
     </option>
   </component>
@@ -420,6 +448,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bjj-child" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bjjtotal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bjjtotal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -612,14 +666,7 @@
       <workItem from="1461100900951" duration="1400000" />
       <workItem from="1461318976140" duration="1346000" />
       <workItem from="1461401153568" duration="7506000" />
-      <workItem from="1461411386502" duration="2188000" />
-    </task>
-    <task id="LOCAL-00001" summary="aaa">
-      <created>1459198615165</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1459198615165</updated>
+      <workItem from="1461411386502" duration="12527000" />
     </task>
     <task id="LOCAL-00002" summary="initial commit">
       <created>1459199039375</created>
@@ -957,36 +1004,43 @@
       <option name="project" value="LOCAL" />
       <updated>1461401676817</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="remove autoplay in small videos">
+      <created>1461413655467</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1461413655468</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138052000" />
+    <option name="totallyTimeSpent" value="148391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="57" width="1682" height="1024" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23303168" sideWeight="0.5275735" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33484164" sideWeight="0.5870098" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.023755657" sideWeight="0.6893382" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31823328" sideWeight="0.4859504" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14895156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.4966722" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33484164" sideWeight="0.41299018" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14895156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23303168" sideWeight="0.47242647" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23303168" sideWeight="0.47242647" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.047404062" sideWeight="0.49754903" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33522084" sideWeight="0.41900826" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1048,7 +1102,8 @@
     <MESSAGE value="fix bug bad results on archive page" />
     <MESSAGE value="ux" />
     <MESSAGE value="black theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="black theme" />
+    <MESSAGE value="remove autoplay in small videos" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove autoplay in small videos" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1135,20 +1190,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/gridster-lite/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="256" column="1" selection-start-line="194" selection-start-column="0" selection-end-line="256" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/gridster-lite/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-blog-header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1368,49 +1409,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1461401676315" expanded="true" signature="248:7178" placeholder="..." />
-            <marker date="1461401676315" expanded="true" signature="331:6114" placeholder="..." />
-            <marker date="1461401676315" expanded="true" signature="376:6087" placeholder="..." />
-            <marker date="1461401676315" expanded="true" signature="411:6069" placeholder="..." />
-            <marker date="1461401676315" expanded="true" signature="425:753" placeholder="//..." />
-            <marker date="1461401676315" expanded="true" signature="1049:6033" placeholder="..." />
-            <marker date="1461401676315" expanded="true" signature="1130:6010" placeholder="..." />
-            <marker date="1461401676315" expanded="true" signature="1322:1393" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="188" column="22" selection-start-line="188" selection-start-column="22" selection-end-line="188" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461401676439" expanded="true" signature="579:659" placeholder="..." />
+            <marker date="1461401676439" expanded="true" signature="586:657" placeholder="..." />
+            <marker date="1461401676439" expanded="true" signature="704:992" placeholder="..." />
+            <marker date="1461401676439" expanded="true" signature="745:969" placeholder="..." />
+            <marker date="1461401676439" expanded="true" signature="856:949" placeholder="..." />
+            <marker date="1461401676439" expanded="true" signature="859:943" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,14 +1501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1509,7 +1511,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/youtube-embed-plus/youtube.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="-24">
           <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
           <folding>
             <marker date="1461413595524" expanded="true" signature="27358:27610" placeholder="SELECT SQL_C... ${$wpdb-&gt;posts}" />
@@ -1522,6 +1524,78 @@
             <marker date="1461413595524" expanded="true" signature="111720:111738" placeholder="..." />
             <marker date="1461413595524" expanded="true" signature="190008:190028" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461306695000" expanded="true" signature="358:387" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="293" column="9" selection-start-line="293" selection-start-column="9" selection-end-line="293" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="224" column="31" selection-start-line="224" selection-start-column="31" selection-end-line="224" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="762" column="9" selection-start-line="762" selection-start-column="9" selection-end-line="762" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/loop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="20" />
+          <folding>
+            <marker date="1461428046014" expanded="true" signature="2134:2196" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="2825:2935" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="2831:2928" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="3033:3259" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="3037:3259" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="3084:3185" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="3352:3438" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="3868:4038" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="3964:4031" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="4438:4722" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="4902:5072" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="5790:5901" placeholder="..." />
+            <marker date="1461428046014" expanded="true" signature="7430:7506" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bjj-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="36" column="7" selection-start-line="33" selection-start-column="6" selection-end-line="36" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
