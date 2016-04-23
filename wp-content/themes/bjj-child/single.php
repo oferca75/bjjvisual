@@ -133,7 +133,11 @@ get_header(); ?>
                     $str = str_replace("Positions", "", $postTitle);
                     $dispStr = "Positions from the " . $str;
                 } else {
-                    $dispStr = "Options from the " . eliminateKeywords($postTitle);
+                    if (count($next_moves) > 1) {
+                        $dispStr = "Options from the " . eliminateKeywords($postTitle);
+                    } else {
+                        $dispStr = "Next move";// from the " . eliminateKeywords($postTitle);
+                    }
                 }
                 ?><h2><span class="next-moves"><?php echo $dispStr ?> :</span></h2><?php
                 set_query_var('post_title', $title);

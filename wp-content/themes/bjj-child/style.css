@@ -235,7 +235,7 @@ body.home {
 
   .home .bop-nav-search label,
   .home form.bop-nav-search, .home .sf-menu li.bop-nav-search input.search-field {
-    width: 100px !important;
+    width: 120px !important;
     margin-left: 30px;
   }
 }
