@@ -28,11 +28,16 @@ function child_register_sidebar(){
  */
 function eliminateKeywords($postTitle)
 {
-    $postTitle = str_replace("Top", "", $postTitle);
-    $postTitle = str_replace("Bottom", "", $postTitle);
+    $words = array("Top", "Bottom");
+    foreach ($words as $word) {
+        if (endsWith($postTitle, $word)) {
+            $postTitle = str_replace($word, "", $postTitle);
+        }
+    }
 //    if (endsWith($postTitle,"ass")) {
 //        $postTitle = str_replace("pass", "", $postTitle);
 //        $postTitle = str_replace("Pass", "", $postTitle);
+//    }
 //    }
     return $postTitle;
 }
