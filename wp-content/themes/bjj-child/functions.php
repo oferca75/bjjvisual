@@ -20,3 +20,11 @@ function child_register_sidebar(){
         'after_title' => '</h4>',
     ));
 }
+
+
+add_action('wp_head', 'add_my_script');
+
+function add_my_script()
+{
+    wp_enqueue_script('custom', get_template_directory_uri() . '/js/custom.js');
+}

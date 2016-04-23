@@ -32,9 +32,9 @@
 
 
 function preyoutube_function($content,$isFirstVideo,$isNotSingle, $atts) {
-    $getParams = "&autoplay=1";
+$getParams="";
     if (isSingleVideoPost($isFirstVideo) && !$isNotSingle ) {
-    $getParams .= "&width=600";
+    $getParams .= "&width=600&autoplay=1";
     } else {
     $getParams .= "&width=300&height=200";
     //$getParams .= "&start=20";
@@ -44,7 +44,8 @@ function preyoutube_function($content,$isFirstVideo,$isNotSingle, $atts) {
         return $content.$getParams;
     }
     //process plugin
-    $preyt_output = "https://www.youtube.com/watch?wmode=opaque&v=".$atts["id"].$getParams;
+    $id=$atts["id"];
+    $preyt_output = "https://www.youtube.com/watch?wmode=opaque&&enablejsapi=1&playerapiid=$id&v=$id".$getParams;
     //send back text to calling function
     return $preyt_output;
 }/**
@@ -691,7 +692,7 @@ public static $vidCount = 0;
                         }
                         catch (Exception $ex)
                         {
-                            
+
                         }
                     }
                     else if (isset($linkparams['list']))
@@ -727,7 +728,7 @@ public static $vidCount = 0;
                         }
                         catch (Exception $ex)
                         {
-                            
+
                         }
                     }
                 }
@@ -900,7 +901,7 @@ public static $vidCount = 0;
             }
             catch (Exception $ex)
             {
-                
+
             }
 
             $blogwidth = preg_replace('/\D/', '', $blogwidth); //may have px
@@ -1102,7 +1103,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
         }
 
@@ -1120,7 +1121,7 @@ if ($GLOBALS["posttags"] ){
 //        }
  $isFirstVideo = self::$vidCount == 0;
           $volume  =  self::isNotSingle() ? 0 : $isFirstVideo ? 100 : 0;
-            $voloutput = ' data-vol="' . $volume . '" ';
+            $voloutput = ' data-vol="' . $volume . '" '. ' volume="' . $volume . '" ';
 //        }
             self::$vidCount++;
         if (self::$alloptions[self::$opt_defaultvol] == 1)
@@ -1216,7 +1217,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $e)
             {
-                
+
             }
         }
 
@@ -1235,7 +1236,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
         }
 
@@ -1305,7 +1306,7 @@ if ($GLOBALS["posttags"] ){
                 {
                     if (!empty($galleryCode) && ($key == 'listType' || $key == 'list'))
                     {
-                        
+
                     }
                     else
                     {
@@ -1318,7 +1319,7 @@ if ($GLOBALS["posttags"] ){
                 }
             }
         }
-
+//$finalsrc.= "volume=0";
         $code = $galleryWrapper1 . $code1 . $finalsrc . $code2 . $galleryCode . $galleryWrapper2; //. '<!--' . $m[0] . '-->';
         // reset static vals for next embed
         self::$defaultheight = null;
@@ -1453,7 +1454,7 @@ if ($GLOBALS["posttags"] ){
         }
         catch (Exception $ex)
         {
-            
+
         }
         return $schemaorgcode;
     }
@@ -1496,7 +1497,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
         }
 
@@ -1870,7 +1871,7 @@ if ($GLOBALS["posttags"] ){
                 }
                 catch (Exception $ex)
                 {
-                    
+
                 }
             }
 
@@ -2246,7 +2247,7 @@ if ($GLOBALS["posttags"] ){
         return array(
             $prefix . 'new_items' => array(
                 'content' => $new_pointer_content,
-                'anchor_id' => 'a.toplevel_page_youtube-my-preferences', //'#ytprefs_glance_button', 
+                'anchor_id' => 'a.toplevel_page_youtube-my-preferences', //'#ytprefs_glance_button',
                 'edge' => 'top',
                 'align' => 'left',
                 'active' => (!in_array($prefix . 'new_items', $dismissed) )
@@ -2357,7 +2358,7 @@ if ($GLOBALS["posttags"] ){
         }
 
 
-        // variables for the field and option names 
+        // variables for the field and option names
         $ytprefs_submitted = 'ytprefs_submitted';
 
         // Read in existing option values from database
@@ -2424,7 +2425,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_defaultwidth] = $_defaultwidth;
 
@@ -2435,7 +2436,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_defaultheight] = $_defaultheight;
 
@@ -2446,7 +2447,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_responsive_all] = $_responsive_all;
 
@@ -2457,7 +2458,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_vol] = $_vol;
 
@@ -2468,7 +2469,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_gallery_pagesize] = $_gallery_pagesize;
 
@@ -2480,7 +2481,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_gallery_columns] = $_gallery_columns;
 
@@ -2491,7 +2492,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_gallery_scrolloffset] = $_gallery_scrolloffset;
 
@@ -2587,7 +2588,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_apikey] = $_apikey;
 
@@ -2599,7 +2600,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_hl] = $_hl;
 
@@ -2611,7 +2612,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_dyntype] = $_dyntype;
 
@@ -2622,7 +2623,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             $new_options[self::$opt_spdcexp] = $_spdcexp;
 
@@ -2642,7 +2643,7 @@ if ($GLOBALS["posttags"] ){
             }
             catch (Exception $ex)
             {
-                
+
             }
             ?>
             <div class="updated"><p><strong><?php _e('Changes saved.'); ?></strong></p></div>
@@ -2713,7 +2714,7 @@ if ($GLOBALS["posttags"] ){
             .textinput {border-width: 2px !important;}
             h3.sect {border-radius: 10px; background-color: #D9E9F7; padding: 5px 5px 5px 10px; position: relative; font-weight: bold;}
             h3.sect a {text-decoration: none; color: #E20000;}
-            h3.sect a.button-primary {color: #ffffff;} 
+            h3.sect a.button-primary {color: #ffffff;}
             h4.sect {border-radius: 10px; background-color: #D9E9F7; padding: 5px 5px 5px 10px; position: relative; font-weight: bold;}
 
             .ytnav {margin-bottom: 15px;}
@@ -2788,7 +2789,7 @@ if ($GLOBALS["posttags"] ){
                 </p>
                 <p>
                     <b>For self-contained playlists:</b> Go to the page for the playlist that lists all of its videos (<a target="_blank" href="http://www.youtube.com/playlist?list=PL70DEC2B0568B5469">Example &raquo;</a>). Click on the video that you want the playlist to start with. Copy and paste that browser URL into your blog on its own line. If you want the first video to always be the latest video in your playlist, check the option "Playlist Ordering" in the settings down below (you will also see this option available if you use the Pro Wizard). If you want to have two or more playlists next to each other on the same line, wrap each link with the <code>[embedyt]...[/embedyt]</code> shortcode.
-                </p>                
+                </p>
                 <p>
                     <b>For self-contained channel playlists:</b> At your editor, click on the <img style="vertical-align: text-bottom;" src="<?php echo plugins_url('images/wizbuttonbig.png', __FILE__) ?>"> wizard button and choose the option <i>Search for a video or channel to insert in my editor.</i> Then, click on the <i>channel playlist</i> option there (instead of <i>single video</i>). Search for the channel username and follow the rest of the directions there.
                 </p>
@@ -2805,17 +2806,17 @@ if ($GLOBALS["posttags"] ){
                     <li>Make sure you did <strong>not</strong> format or align the URL in any way. If your URL still appears in your actual post instead of a video, highlight it and click the "remove formatting" button (formatting can be invisible sometimes): <img src="<?php echo plugins_url('images/erase.png', __FILE__) ?>"/></li>
                     <li>If you really want to align the video, try wrapping the link with the shortcode first. For example: <code>[embedyt]http://www.youtube.com/watch?v=ABCDEFGHIJK[/embedyt]</code> Using the shortcode also allows you to have two or more videos next to each other on the same line.  Just put the shortcoded links together on the same line. For example:<br>
                         <code>[embedyt]http://www.youtube.com/watch?v=ABCDEF[/embedyt] [embedyt]http://www.youtube.com/watch?v=GHIJK[/embedyt]</code>
-                </ul>       
+                </ul>
 
                 <div class="jumper" id="jumpwiz"></div>
                 <h3 class="sect">Visual YouTube Wizard <a href="#top" class="totop">&#9650; top</a></h3>
 
                 <p>
-                    Let's say you don't know the exact URL of the video you wish to embed.  Well, we've made the ability to directly search YouTube and insert videos right from your editor tab as a free feature to all users.  
-                    Simply click the <img style="vertical-align: text-bottom;" src="<?php echo plugins_url('images/wizbuttonbig.png', __FILE__) ?>"> wizard button found above 
-                    your editor to start the wizard (see image above to locate this button).  There, you'll be given the option to enter your search terms.  
-                    Click the "Search" button to view the results.  Each result will have an <span class="button-primary cuz">&#9660; Insert Into Editor</span> button that 
-                    you can click to directly embed the desired video link to your post without having to copy and paste.             
+                    Let's say you don't know the exact URL of the video you wish to embed.  Well, we've made the ability to directly search YouTube and insert videos right from your editor tab as a free feature to all users.
+                    Simply click the <img style="vertical-align: text-bottom;" src="<?php echo plugins_url('images/wizbuttonbig.png', __FILE__) ?>"> wizard button found above
+                    your editor to start the wizard (see image above to locate this button).  There, you'll be given the option to enter your search terms.
+                    Click the "Search" button to view the results.  Each result will have an <span class="button-primary cuz">&#9660; Insert Into Editor</span> button that
+                    you can click to directly embed the desired video link to your post without having to copy and paste.
                 </p>
                 <p>
                     The ability to read the latest Internet discussions about the videos you want to embed is now free to all users.
@@ -2891,7 +2892,7 @@ if ($GLOBALS["posttags"] ){
                         <label for="<?php echo self::$opt_wmode; ?>"><?php _e('<b class="chktitle">Wmode:</b> Use "opaque" wmode (uncheck to use "transparent"). Opaque may have higher performance.') ?></label>
                     </p>
                     <p>
-                        <input name="<?php echo self::$opt_defaultdims; ?>" id="<?php echo self::$opt_defaultdims; ?>" <?php checked($all[self::$opt_defaultdims], 1); ?> type="checkbox" class="checkbox">                        
+                        <input name="<?php echo self::$opt_defaultdims; ?>" id="<?php echo self::$opt_defaultdims; ?>" <?php checked($all[self::$opt_defaultdims], 1); ?> type="checkbox" class="checkbox">
                         <span id="boxdefaultdims">
                             Width: <input type="text" name="<?php echo self::$opt_defaultwidth; ?>" id="<?php echo self::$opt_defaultwidth; ?>" value="<?php echo trim($all[self::$opt_defaultwidth]); ?>" class="textinput" style="width: 50px;"> &nbsp;
                             Height: <input type="text" name="<?php echo self::$opt_defaultheight; ?>" id="<?php echo self::$opt_defaultheight; ?>" value="<?php echo trim($all[self::$opt_defaultheight]); ?>" class="textinput" style="width: 50px;">
@@ -2953,7 +2954,7 @@ if ($GLOBALS["posttags"] ){
                         </label>
                     </p>-->
                     <p>
-                        <input name="<?php echo self::$opt_defaultvol; ?>" id="<?php echo self::$opt_defaultvol; ?>" <?php checked($all[self::$opt_defaultvol], 1); ?> type="checkbox" class="checkbox">                        
+                        <input name="<?php echo self::$opt_defaultvol; ?>" id="<?php echo self::$opt_defaultvol; ?>" <?php checked($all[self::$opt_defaultvol], 1); ?> type="checkbox" class="checkbox">
                         <label for="<?php echo self::$opt_defaultvol; ?>">
                             <b class="chktitle">Volume Initialization: </b>
                             Set an initial volume level for all of your embedded videos.  Check this and you'll see a <span class="vol-seeslider">slider</span> <span class="vol-seetextbox">textbox</span> for setting the start volume to a value between 0 (mute) and 100 (max) percent.  Leaving it unchecked means you want the visitor's default behavior.  This feature is experimental and is less predictable on a page with more than one embed. Read more about why you might want to <a href="<?php echo self::$epbase ?>/mute-volume-youtube-wordpress.aspx" target="_blank">initialize YouTube embed volume here &raquo;</a>
@@ -2968,17 +2969,17 @@ if ($GLOBALS["posttags"] ){
                         <label for="<?php echo self::$opt_cc_load_policy; ?>"><?php _e('<b class="chktitle">Closed Captions:</b> Turn on closed captions by default.') ?></label>
                     </p>
                     <p>
-                        <input name="<?php echo self::$opt_dohl; ?>" id="<?php echo self::$opt_dohl; ?>" <?php checked($all[self::$opt_dohl], 1); ?> type="checkbox" class="checkbox">                        
+                        <input name="<?php echo self::$opt_dohl; ?>" id="<?php echo self::$opt_dohl; ?>" <?php checked($all[self::$opt_dohl], 1); ?> type="checkbox" class="checkbox">
         <!--                        <span id="boxdohl">
                             Language: <input type="text" name="<?php echo self::$opt_hl; ?>" id="<?php echo self::$opt_hl; ?>" value="<?php echo trim($all[self::$opt_hl]); ?>" class="textinput" style="width: 50px;" maxlength="2">
                         </span>-->
                         <label for="<?php echo self::$opt_dohl; ?>"><b class="chktitle">Player Localization / Internationalization: </b>
                             Automatically detect your site's default language (using get_locale) and set your YouTube embeds interface language so that it matches. Specifically, this will set the player's tooltips and caption track if your language is natively supported by YouTube. We suggest checking this if English is not your site's default language.  <a href="<?php echo self::$epbase ?>/youtube-iso-639-1-language-codes.aspx" target="_blank">See here for more details &raquo;</a></label>
-                    </p>                    
+                    </p>
                     <p>
                         <input name="<?php echo self::$opt_html5; ?>" id="<?php echo self::$opt_html5; ?>" <?php checked($all[self::$opt_html5], 1); ?> type="checkbox" class="checkbox">
                         <label for="<?php echo self::$opt_html5; ?>">
-                            <b class="chktitle strike">HTML5 First:</b> 
+                            <b class="chktitle strike">HTML5 First:</b>
                             As of January 2015, YouTube began serving the HTML5 player by default; therefore, this plugin no longer needs a special HTML5 setting.  This option is simply kept here as a notice.
                         </label>
                     </p>
@@ -2986,7 +2987,7 @@ if ($GLOBALS["posttags"] ){
                     <p>
                         <input name="<?php echo self::$opt_playlistorder; ?>" id="<?php echo self::$opt_playlistorder; ?>" <?php checked($all[self::$opt_playlistorder], 1); ?> type="checkbox" class="checkbox">
                         <label for="<?php echo self::$opt_playlistorder; ?>">
-                            <b class="chktitle">Playlist Ordering:</b> 
+                            <b class="chktitle">Playlist Ordering:</b>
                             Check this option if you want your playlists to begin with the latest added video by default. (Unchecking this will force playlists to always start with your selected specific video, even if you add videos to the playlist later).
                             Note that this is not for setting the thumbnail list order of galleries,  just the standard playlist player that YouTube provides.
                         </label>
@@ -2999,7 +3000,7 @@ if ($GLOBALS["posttags"] ){
                 <div class="jumper" id="jumpcompat"></div>
                 <h3 class="sect">Compatibility Settings <a href="#top" class="totop">&#9650; top</a></h3>
                 <p>
-                    With thousands of active users, our plugin may not work with every plugin out there. Below are some settings you may wish to try out. 
+                    With thousands of active users, our plugin may not work with every plugin out there. Below are some settings you may wish to try out.
                 </p>
                 <div class="ytindent chx">
                     <p>
@@ -3039,7 +3040,7 @@ if ($GLOBALS["posttags"] ){
                     <p>
                         <input name="<?php echo self::$opt_evselector_light; ?>" id="<?php echo self::$opt_evselector_light; ?>" <?php checked($all[self::$opt_evselector_light], 1); ?> type="checkbox" class="checkbox">
                         <label for="<?php echo self::$opt_evselector_light; ?>">
-                            <b class="chktitle">Theme Video Problems: </b> 
+                            <b class="chktitle">Theme Video Problems: </b>
                             Check this option if you're having issues with autoplayed videos or background videos etc. that have been generated by your theme.
                         </label>
                     </p>
@@ -3047,7 +3048,7 @@ if ($GLOBALS["posttags"] ){
                         <input name="<?php echo self::$opt_debugmode; ?>" id="<?php echo self::$opt_debugmode; ?>" <?php checked($all[self::$opt_debugmode], 1); ?> type="checkbox" class="checkbox">
                         <label for="<?php echo self::$opt_debugmode; ?>">
                             <b class="chktitle">Debug Mode: </b> If you ask for support, we may ask you to turn on debug mode here.
-                            It may print out some diagnostic info so that we can help you solve your issue. 
+                            It may print out some diagnostic info so that we can help you solve your issue.
                         </label>
                     </p>
 
@@ -3056,7 +3057,7 @@ if ($GLOBALS["posttags"] ){
                 <h3 class="sect">Gallery Settings and Directions <a href="#top" class="totop">&#9650; top</a></h3>
                 <img class="ssgallery" src="<?php echo plugins_url('images/ssgallery.png', __FILE__) ?>">
                 <p>
-                    <a target="_blank" href="<?php echo self::$epbase ?>/responsive-youtube-playlist-channel-gallery-for-wordpress.aspx">You can now make playlist embeds (and channel-playlist embeds) have a gallery layout &raquo;</a>. <strong>First, you must obtain your YouTube API key</strong>. 
+                    <a target="_blank" href="<?php echo self::$epbase ?>/responsive-youtube-playlist-channel-gallery-for-wordpress.aspx">You can now make playlist embeds (and channel-playlist embeds) have a gallery layout &raquo;</a>. <strong>First, you must obtain your YouTube API key</strong>.
                     Don't worry, it's an easy process. Just <a href="https://www.youtube.com/watch?v=px8LvNIVblg" target="_blank">click this link &raquo;</a> and follow the video on that page to get your API key. Then paste it in the "YouTube API Key" box below, and click the "Save Changes" button.
                 </p>
                 <p>
@@ -3081,7 +3082,7 @@ if ($GLOBALS["posttags"] ){
                 </p>
                 <div class="ytindent chx">
                     <p>
-                        <b class="chktitle">YouTube API Key:</b> 
+                        <b class="chktitle">YouTube API Key:</b>
                         <input type="text" name="<?php echo self::$opt_gallery_apikey; ?>" id="<?php echo self::$opt_gallery_apikey; ?>" value="<?php echo trim($all[self::$opt_apikey]); ?>" class="textinput" style="width: 250px;">
                         Required so your site can get the thumbnails, title text, and other content from YouTube's servers that used to render galleries. <a href="https://www.youtube.com/watch?v=px8LvNIVblg" target="_blank">Click this link &raquo;</a> and follow the video to the right to get your API key.
                     </p>
@@ -3102,7 +3103,7 @@ if ($GLOBALS["posttags"] ){
                     </p>
                     <p>
                         <label for="<?php echo self::$opt_gallery_columns; ?>"><b class="chktitle">Number of Columns:</b></label>
-                        <input name="<?php echo self::$opt_gallery_columns; ?>" id="<?php echo self::$opt_gallery_columns; ?>" type="number" class="textinput" style="width: 60px;" value="<?php echo trim($all[self::$opt_gallery_columns]); ?>">                        
+                        <input name="<?php echo self::$opt_gallery_columns; ?>" id="<?php echo self::$opt_gallery_columns; ?>" type="number" class="textinput" style="width: 60px;" value="<?php echo trim($all[self::$opt_gallery_columns]); ?>">
                         Enter how many thumbnails can fit per row.
                     </p>
                     <p>
@@ -3153,7 +3154,7 @@ if ($GLOBALS["posttags"] ){
                             <li>a gallery from a specific playlist</li>
                         </ol>
                         <p>
-                            We advise that you <a href="https://www.youtube.com/watch?v=XvFL-Rr-2Qo" target="_blank">watch the video here &raquo;</a> with YouTube.com annotations turned on so you don't miss important steps.  
+                            We advise that you <a href="https://www.youtube.com/watch?v=XvFL-Rr-2Qo" target="_blank">watch the video here &raquo;</a> with YouTube.com annotations turned on so you don't miss important steps.
                             The PRO wizard is an alternate way to fully create playlist, channel, and gallery codes.
                         </p>
                     </div>
@@ -3189,7 +3190,7 @@ if ($GLOBALS["posttags"] ){
                             <img class="ssaltgallery" src="<?php echo plugins_url('images/ssverticallayout.png', __FILE__) ?>" />
                             <input name="<?php echo self::$opt_gallery_showdsc; ?>" id="<?php echo self::$opt_gallery_showdsc; ?>" <?php checked($all[self::$opt_gallery_showdsc], 1); ?> type="checkbox" class="checkbox">
                             <label for="<?php echo self::$opt_gallery_showdsc; ?>">
-                                <b>(PRO)</b> <b class="chktitle">Show Gallery Descriptions (for vertical list styling): </b> 
+                                <b>(PRO)</b> <b class="chktitle">Show Gallery Descriptions (for vertical list styling): </b>
                                 For the vertical list layout, this option will show full video descriptions (taken directly from YouTube.com) with each thumbnail. Note: these descriptions only apply the vertical list layout; other layouts don't have enough room.
                             </label>
                         </p>
@@ -3212,7 +3213,7 @@ if ($GLOBALS["posttags"] ){
                         <p>
                             <input name="<?php echo self::$opt_spdc; ?>" id="<?php echo self::$opt_spdc; ?>" <?php checked($all[self::$opt_spdc], 1); ?> type="checkbox" class="checkbox">
                             <label for="<?php echo self::$opt_spdc; ?>">
-                                <b>(PRO)</b> <b class="chktitle">Faster Page Loads (Caching): </b> 
+                                <b>(PRO)</b> <b class="chktitle">Faster Page Loads (Caching): </b>
                                 Use embed caching to speed up your page loads. By default, WordPress needs to request information from YouTube.com's servers for every video you embed, every time a page is loaded. These data requests can add time to your total page load time. Turn on this feature to cache that data (instead of having to request for the same information every time you load a page). This should then make your pages that have videos load faster.  It's been noted that even small speed ups in page load can help increase visitor engagement, retention, and conversions. Caching also makes galleries run faster.
                             </label>
                         <div class="indent-option">
@@ -3242,7 +3243,7 @@ if ($GLOBALS["posttags"] ){
                             <span id="boxschemaorg">
                                 <span class="apikey-msg">
                                     The video SEO tags include data like the title, description, and thumbnail information of each video you embed.  This plugin automatically extracts this data directly from YouTube using the version 3 API,
-                                    which will soon replace the version 2 API. This particular API version requires that you obtain an API key so that YouTube can authenticate the requests.  Don't worry, it's an easy process.  
+                                    which will soon replace the version 2 API. This particular API version requires that you obtain an API key so that YouTube can authenticate the requests.  Don't worry, it's an easy process.
                                     Just <a href="https://developers.google.com/youtube/registering_an_application" target="_blank">click this link &raquo;</a> and follow the video to the right to get your API key. Then paste it in the box below, and click the "Save Changes" button:
                                     <br>
                                     <span style="vertical-align: middle; display: inline-block;">
@@ -3256,7 +3257,7 @@ if ($GLOBALS["posttags"] ){
                         </p>
                         <div class="hr"></div>
                         <p>
-                            <input name="<?php echo self::$opt_dynload; ?>" id="<?php echo self::$opt_dynload; ?>" <?php checked($all[self::$opt_dynload], 1); ?> type="checkbox" class="checkbox">                        
+                            <input name="<?php echo self::$opt_dynload; ?>" id="<?php echo self::$opt_dynload; ?>" <?php checked($all[self::$opt_dynload], 1); ?> type="checkbox" class="checkbox">
                             <span id="boxdyn">
                                 Animation:
                                 <?php $cleandyn = trim($all[self::$opt_dyntype]); ?>
@@ -3294,7 +3295,7 @@ if ($GLOBALS["posttags"] ){
                             <img class="ssfb" src="<?php echo plugins_url('images/youtube_thumbnail_sample.jpg', __FILE__) ?>" />
                             <input name="<?php echo self::$opt_ftpostimg; ?>" id="<?php echo self::$opt_ftpostimg; ?>" <?php checked($all[self::$opt_ftpostimg], 1); ?> type="checkbox" class="checkbox">
                             <label for="<?php echo self::$opt_ftpostimg; ?>">
-                                <b>(PRO)</b> <b class="chktitle">Automatic Video Thumbnails: </b> 
+                                <b>(PRO)</b> <b class="chktitle">Automatic Video Thumbnails: </b>
                                 Automatically grab the thumbnail image of the first video embedded in each post or page, and use it as the featured image.  If your theme can display featured images of posts on your blog home, you’ll see the thumbnails there as shown in the picture on the right.  All you have to do is click Update on a post or page and the plugin does the rest!
                                 (Example shown on the right) <a target="_blank" href="<?php echo self::$epbase ?>/add-youtube-video-thumbnails-featured-image-wordpress.aspx">Watch example here &raquo;</a>
                             </label>
@@ -3312,7 +3313,7 @@ if ($GLOBALS["posttags"] ){
                                 <option value="">Gallery Style</option>
                             </select>
                             <label>
-                                <b class="chktitle">Alternate Gallery Styling: </b> <span class="pronon">(PRO Users)</span> 
+                                <b class="chktitle">Alternate Gallery Styling: </b> <span class="pronon">(PRO Users)</span>
                                 Switch from the grid style of the FREE version to another gallery style. Right now, we provide a vertical (single column) and horizontal (single row) list style as alternatives to the grid, with more designs coming. These current alternatives were inspired by the standard YouTube playlist player's "table of contents," except our gallery's video lists are always visible and shown under the playing video.
                                 <a target="_blank" href="<?php echo self::$epbase ?>/responsive-youtube-playlist-channel-gallery-for-wordpress.aspx">Read more here &raquo;</a>
                             </label>
@@ -3323,7 +3324,7 @@ if ($GLOBALS["posttags"] ){
                             <img class="ssaltgallery" src="<?php echo plugins_url('images/ssverticallayout.png', __FILE__) ?>" />
                             <input disabled type="checkbox" class="checkbox">
                             <label>
-                                <b class="chktitle">Show Gallery Descriptions (for vertical list styling): </b>  <span class="pronon">(PRO Users)</span> 
+                                <b class="chktitle">Show Gallery Descriptions (for vertical list styling): </b>  <span class="pronon">(PRO Users)</span>
                                 For the vertical list layout, this option will show full video descriptions (taken directly from YouTube.com) with each thumbnail. Note: these descriptions only apply the vertical list layout; other layouts don't have enough room.
                             </label>
                         </p>
@@ -3334,7 +3335,7 @@ if ($GLOBALS["posttags"] ){
                                 <option value="">Select Thumbnail Shape</option>
                             </select>
                             <label>
-                                <b class="chktitle">Gallery Thumbnail Shape: </b> <span class="pronon">(PRO Users)</span> 
+                                <b class="chktitle">Gallery Thumbnail Shape: </b> <span class="pronon">(PRO Users)</span>
                                 Differentiate your gallery by showing different thumbnail shapes.  We currently offer rectangle and circle shapes.
                                 <a target="_blank" href="<?php echo self::$epbase ?>/responsive-youtube-playlist-channel-gallery-for-wordpress.aspx">Read more here &raquo;</a>
                             </label>
@@ -3344,12 +3345,12 @@ if ($GLOBALS["posttags"] ){
                         <p>
                             <input disabled type="checkbox" class="checkbox">
                             <label>
-                                <b class="chktitle">Faster Page Loads (Caching): </b>  <span class="pronon">(PRO Users)</span> 
+                                <b class="chktitle">Faster Page Loads (Caching): </b>  <span class="pronon">(PRO Users)</span>
                                 Use embed caching to speed up your page loads. By default, WordPress needs to request information from YouTube.com's servers for every video you embed, every time a page is loaded. These data requests can add time to your total page load time. Turn on this feature to cache that data (instead of having to request for the same information every time you load a page). This should then make your pages that have videos load faster.  It's been noted that even small speed ups in page load can help increase visitor engagement, retention, and conversions. Caching also makes galleries run faster.
                             </label>
                         <div class="indent-option">
                             <label>
-                                <b class="chktitle">Cache Lifetime (hours): </b> 
+                                <b class="chktitle">Cache Lifetime (hours): </b>
                                 <input disabled value="24" type="number">
                                 Tip: If your pages rarely change, you may wish to set this to a much higher value than 24 hours.
                             </label>
@@ -3368,7 +3369,7 @@ if ($GLOBALS["posttags"] ){
                         <p>
                             <input disabled type="checkbox" class="checkbox">
                             <label>
-                                <b class="chktitle">Special Loading Effects:</b>  <span class="pronon">(PRO Users)</span> 
+                                <b class="chktitle">Special Loading Effects:</b>  <span class="pronon">(PRO Users)</span>
                                 Add eye-catching special effects that will make your YouTube embeds bounce, flip, pulse, or slide as they load on the screen.  Check this box to select your desired effect. <a target="_blank" href="<?php echo self::$epbase ?>/add-special-effects-to-youtube-embeds-in-wordpress.aspx">Read more here &raquo;</a>
                             </label>
                         </p>
@@ -3385,9 +3386,9 @@ if ($GLOBALS["posttags"] ){
                             <img class="ssfb" src="<?php echo plugins_url('images/youtube_thumbnail_sample.jpg', __FILE__) ?>" />
                             <input disabled type="checkbox" class="checkbox">
                             <label>
-                                <b class="chktitle">Automatic Video Thumbnails:</b>  <span class="pronon">(PRO Users)</span> 
-                                Automatically grab the thumbnail image of the first video embedded in each post or page, and use it as the featured image. 
-                                All you have to do is click Update on a post or page and the plugin does the rest! 
+                                <b class="chktitle">Automatic Video Thumbnails:</b>  <span class="pronon">(PRO Users)</span>
+                                Automatically grab the thumbnail image of the first video embedded in each post or page, and use it as the featured image.
+                                All you have to do is click Update on a post or page and the plugin does the rest!
                                 (Example shown on the right) <a target="_blank" href="<?php echo self::$epbase ?>/add-youtube-video-thumbnails-featured-image-wordpress.aspx">Read more here &raquo;</a>
                             </label>
                         </p>
@@ -3456,7 +3457,7 @@ if ($GLOBALS["posttags"] ){
                     ?>
 
                     <h3 class="sect">
-                        <a href="<?php echo self::$epbase ?>/dashboard/pro-easy-video-analytics.aspx" class="button-primary" target="_blank">Want to go PRO? (Low Prices) &raquo;</a> &nbsp; 
+                        <a href="<?php echo self::$epbase ?>/dashboard/pro-easy-video-analytics.aspx" class="button-primary" target="_blank">Want to go PRO? (Low Prices) &raquo;</a> &nbsp;
                         PRO users help keep new features coming and our coffee cups filled. Go PRO and get these perks in return:
                     </h3>
                     <div class="procol">
@@ -3472,7 +3473,7 @@ if ($GLOBALS["posttags"] ){
                             <li>
                                 <img src="<?php echo plugins_url('images/icongallery.png', __FILE__) ?>">
                                 Alternate Gallery Styling
-                            </li>       
+                            </li>
                             <li>
                                 <img src="<?php echo plugins_url('images/iconfx.png', __FILE__) ?>">
                                 Add eye-catching special effects as your videos load
@@ -3484,11 +3485,11 @@ if ($GLOBALS["posttags"] ){
                             <li>
                                 <img src="<?php echo plugins_url('images/globe.png', __FILE__) ?>">
                                 Alerts when visitors from different countries are blocked from viewing your embeds
-                            </li>                 
+                            </li>
                             <li>
                                 <img src="<?php echo plugins_url('images/mobilecompat.png', __FILE__) ?>">
                                 Check if your embeds have restrictions that can block mobile viewing
-                            </li>       
+                            </li>
 
                         </ul>
                     </div>
@@ -3496,8 +3497,8 @@ if ($GLOBALS["posttags"] ){
                         <ul class="gopro">
                             <li>
                                 <img src="<?php echo plugins_url('images/videothumbs.png', __FILE__) ?>">
-                                Automatic video thumbnail images (just click 'Update')  
-                            </li>       
+                                Automatic video thumbnail images (just click 'Update')
+                            </li>
                             <li>
                                 <img src="<?php echo plugins_url('images/prioritysupport.png', __FILE__) ?>">
                                 Priority support (Puts your request in front)
@@ -3522,7 +3523,7 @@ if ($GLOBALS["posttags"] ){
                             <li>
                                 <img src="<?php echo plugins_url('images/iconvolume.png', __FILE__) ?>">
                                 Fine-Grained Volume Initialization – Individual video volume settings in the wizard
-                            </li>       
+                            </li>
 
                             <li>
                                 <img src="<?php echo plugins_url('images/infinity.png', __FILE__) ?>">
@@ -3530,7 +3531,7 @@ if ($GLOBALS["posttags"] ){
                             </li>
                             <!--                            <li>
                                                             <img src="<?php echo plugins_url('images/questionsale.png', __FILE__) ?>">
-                                                            What else? You tell us!                                
+                                                            What else? You tell us!
                                                         </li>                           -->
                         </ul>
                     </div>
@@ -3550,7 +3551,7 @@ if ($GLOBALS["posttags"] ){
                     <?php
                     if (!($all[self::$opt_pro] && strlen(trim($all[self::$opt_pro])) > 0))
                     {
-                        ?>                    
+                        ?>
                         &nbsp; &nbsp; &nbsp; <span style="font-size: 25px; color: #cccccc;">|</span> &nbsp; &nbsp; &nbsp; <a href="<?php echo self::$epbase ?>/dashboard/pro-easy-video-analytics.aspx" class="button-primary brightpro" target="_blank">Click here to go PRO &raquo;</a>
                         <?php
                     }
@@ -3583,7 +3584,7 @@ if ($GLOBALS["posttags"] ){
                     </li>
                     <li>Finally, there's a slight chance your custom theme is the issue, if you have one. To know for sure, we suggest temporarily switching to one of the default WordPress themes (e.g., "Twenty Fourteen") just to see if your video does appear. If it suddenly works, then your custom theme is the issue. You can switch back when done testing.</li>
                     <li>If your videos always appear full size, try turning off "Responsive video sizing."</li>
-                    <li>If none of the above work, you can contact us here if you still have issues: ext@embedplus.com. We'll try to respond within a week. PRO users should use the priority form below for faster replies.</li>                        
+                    <li>If none of the above work, you can contact us here if you still have issues: ext@embedplus.com. We'll try to respond within a week. PRO users should use the priority form below for faster replies.</li>
                 </ul>
                 <p>
                     Deactivating the No Cookies option has also been proven to solve player errors.
@@ -3597,7 +3598,7 @@ if ($GLOBALS["posttags"] ){
                 Priority Support <span class="pronon">(<a href="<?php echo self::$epbase ?>/dashboard/pro-easy-video-analytics.aspx" target="_blank">PRO Users &raquo;</a>)</span><a href="#top" class="totop">&#9650; top</a>
             </h3>
             <p>
-                <strong>PRO users:</strong> Below, We've enabled the ability to have priority support with our team.  Use this to get one-on-one help with any issues you might have or to send us suggestions for future features.  We typically respond within minutes during normal work hours. We're always happy to accept any testimonials you might have as well. 
+                <strong>PRO users:</strong> Below, We've enabled the ability to have priority support with our team.  Use this to get one-on-one help with any issues you might have or to send us suggestions for future features.  We typically respond within minutes during normal work hours. We're always happy to accept any testimonials you might have as well.
             </p>
 
 
