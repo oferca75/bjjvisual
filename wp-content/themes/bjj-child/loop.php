@@ -33,19 +33,7 @@ if (is_sticky() && get_query_var('paged') < 2) {
 
             ?>"> </a></div>
         <h2>
-            <?php
-            $imgSrc = get_stylesheet_directory_uri() . "/img/";
-            if (term_exists($postTitle, 'category')) {
-                $imgSrc .= 'submission.png';
-            } else {
-                $imgSrc .= 'technique3.png';
-
-            }
-            ?>
-
-
-            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><img class="technique-icon"
-                                                                                                 src="<?php echo $imgSrc ?>"/><?php the_title(); ?>
+            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?>
             </a>
         </h2>
         <!--        --><?php //if (has_post_thumbnail()) the_post_thumbnail('featured-img', array('class' => 'alignnone'));

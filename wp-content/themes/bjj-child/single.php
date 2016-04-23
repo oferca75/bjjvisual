@@ -35,10 +35,8 @@ get_header(); ?>
                         $pg_num = fluid_baseline_grid_page_number();
 
                         $postTitle = get_the_title();
-                        $imgSrc = get_stylesheet_directory_uri() . "/img/";
-                        $imgSrc .= term_exists($postTitle, 'category') ? 'submission.png' : 'technique3.png';
 
-                        the_title('<h1 itemprop="headline" class="entry-title"><img class="technique-icon" src="' . $imgSrc . '"/>', ($pg_num > 0) ? ' (Page ' . $pg_num . ')</h1>' : '</h1>');
+                        the_title('<h1 itemprop="headline" class="entry-title">', ($pg_num > 0) ? ' (Page ' . $pg_num . ')</h1>' : '</h1>');
                         if (function_exists('yoast_breadcrumb')) {
                             yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
                         }

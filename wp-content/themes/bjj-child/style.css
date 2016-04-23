@@ -10,112 +10,31 @@
 
 @import url("../fluid-baseline-grid/style.css");
 
-/* =Theme customization starts here
-------------------------------------------------------- */
-
-
-/*
-.post iframe {
-
-    border: 4px dotted #000;
-    box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
-    margin-bottom: 1px;
-}
-
-.post:nth-child(even) iframe {
-    background-color: red;
-
-}
-
-.post:nth-child(odd) iframe {
-    background-color: wheat;
-
-}
-
-body {
-    background-image: url('img/bjjbkg.png') !important;
-}
-
-@font-face {
-    font-family: bjj;
-    src: url(ttf/Dream MMA.ttf);
-    font-weight: normal;
-}
-
-h2 {
-    font-family: bjj;
-
-}
-
-h1, .next-moves {
-    font-style: italic;
-    font-family: bjj;
-    color: #FFD35E;
-    background: -webkit-linear-gradient(#FF9901, yellow);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 72px;
-
-}
-
-h1, div[itemprop="articleBody"] {
-    text-align: center;
-}
-
-.portfoliooverlay span {
-    font-size: 40px;
-    font-weight: bold;
-    background-color: #384249;
-    height: 45px;
-    width: 75px;
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    margin-left: 80px;
-    margin-top: 45px;
-    -moz-opacity: 0.20;
-    -khtml-opacity: 0.20;
-    opacity: 0.20;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity=20);
-    padding-top: 30px;
-    -moz-border-radius: 75px;
-    -webkit-border-radius: 75px;
-    border-radius: 75px;
-    line-height: 15px;
-}
-
-.portfoliooverlay:hover span {
-    -webkit-transition: opacity 1s ease-in-out;
-    opacity: 0.8;
-    -webkit-transition-duration: 0.4s;
-    -moz-transition: opacity 1s ease-in-out;
-    opacity: 0.8;
-    -moz-transition-duration: 0.4s;
-}
-
-*/
-
 .portfoliooverlay {
   position: absolute;
   left: 0px;
-  width: 100%;
+  width: 106%;
   color: white;
   height: 100%;
 }
 
 .blurred .portfoliooverlay,
 .blurred .portfoliooverlay:hover {
-  background-color: white;
-  opacity: 0.44;
-  top: 48px;
+  background-color: black;
+  top: 60px;
   height: 67%;
   /*margin-left: 2%;*/
   border: none !important;
 }
 
+.blurred .portfoliooverlay {
+  opacity: 0.6;
+  transition: 0.25s opacity;
+}
+
+.blurred .portfoliooverlay:hover {
+  opacity: 0;
+}
 .portfoliooverlay:hover {
   -webkit-transition: border-bottom 1s ease-in-out;
   opacity: 1;
@@ -135,6 +54,8 @@ h1, div[itemprop="articleBody"] {
 .portfoliooverlay a:hover {
   color: white;
   transition: all 0.5s ease-out;
+  background: #222;
+  opacity: 0;
 }
 
 .bop-nav-search input,
@@ -189,7 +110,12 @@ nav input + div {
   left: 0px;
   position: fixed;
   width: 100%;
-  background-color: #594c2d;
+  background-color: #222;
+  border-bottom: 5px solid;
+}
+
+.home nav input + div {
+  border-bottom: none;
 }
 
 .home nav input + div, .home .g3 {
@@ -209,29 +135,26 @@ nav input + div {
 
 .home #content {
   width: 100%;
-  background-color: white;
-  /*   position: fixed;
-    top:80%;
-    left: 57%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
+  background: none !important;
 }
 
 .home .g1, .home .g2, .home .g3 {
   float: none;
   display: inline-block;
-  background-color: white !important;
+  background: none !important;
   margin-top: 20px;
 }
 .sf-menu li {
-  background-color: #594c2d;
+  background-color: #222;
   height: 20px;
   padding: 15px;
   border: none;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .home .sf-menu li {
-  background-color: white;
+  background: none !important;
   display: none;
 }
 
@@ -240,14 +163,13 @@ nav input + div {
   width: auto;
   margin: 30px;
 }
-
 .home .sf-menu li.bop-nav-search {
   display: block;
 }
 
 .home .sf-menu li.bop-nav-search input.search-field {
   text-align: left;
-  border: 1px solid #999;
+  border: 3px solid #454545;
   width: 550px;
   max-width: 95%;
   vertical-align: middle;
@@ -270,7 +192,6 @@ body.home {
   margin-bottom: 180px;
 
 }
-
 .home .bop-nav-search label,
 .home .bop-nav-search {
   width: 550px;
@@ -278,8 +199,10 @@ body.home {
 
 .site-title {
   font-size: 48px;
-  color: #A28E4B;
+  color: white;
   font-family: Georgia;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .menu-item a {
@@ -287,9 +210,8 @@ body.home {
 }
 
 .site-desc {
-  color: #A28E4B;
+  color: white;
 }
-
 .home .bop-nav-search .search-submit {
   background: white;
   height: 36px;
@@ -303,6 +225,7 @@ body.home {
 .home .postmetadata, .home nav > label {
   display: none;
 }
+
 
 @media only screen and (max-width: 500px) {
 
@@ -321,7 +244,6 @@ body.home {
   .home nav input + div > ul {
     display: block !important;
   }
-
   .home .bop-nav-search .search-submit {
 
     margin-left: 60px;
@@ -366,7 +288,7 @@ body.home {
 
 body {
   width: 100%;
-  /*margin: 0 auto;*/
+  background-color: #222;
 }
 
 article,
@@ -389,7 +311,7 @@ aside#widget-area-top {
   background: #F7F3DA;
   padding: 10px 2% 20px 2%;
   margin-top: 26px;
-  border-bottom: 15px solid #EEE8C9;
+  border-bottom: 3px solid #454545;
 }
 
 
@@ -438,10 +360,10 @@ article.post-box[id*="post-"] {
 }
 
 #sidebar-side {
-  background: white;
+  background: #222;
   padding-top: 1px;
-  border-left: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+  border-left: 5px solid #454545;
+  border-bottom: 5px solid #454545;
   height: 100%;
 }
 
@@ -469,7 +391,7 @@ article.post-box[id*="post-"] {
 }
 
 #sidebar-side .widget li:last-child {
-  border-bottom: 1px dotted #5b5b5b;
+  border-bottom: 3px dotted #454545;
 }
 
 #sidebar-side .widget ul.sub-menu li:last-child,
@@ -481,7 +403,7 @@ article.post-box[id*="post-"] {
   font-family: "Fjalla One", "Arial Narrow", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-transform: uppercase;
-  color: #9dbb41;
+  color: white;
 }
 
 @media only screen and (min-width: 600px) {
@@ -526,11 +448,11 @@ a,
 h1,
 h4,
 h2 {
-  color: #99742e;
+  color: white;
 }
 
 #sidebar-side .widget a {
-  color: #7a6933;
+  color: white;
 }
 
 #sidebar-side .widget {
@@ -575,14 +497,14 @@ li.jcl_category {
 .g2,
 .g3 {
   margin-left: 0%;
-  margin-right: 0%;
+  margin-right: 3%;
 }
 
 @media only screen and (max-width: 1424px) {
   .g1,
   .g2,
   .g3 {
-    margin-right: 3%;
+    margin-right: 7%;
   }
 }
 
@@ -596,7 +518,7 @@ li.jcl_category {
 }
 
 #primary-post h1 {
-  border-bottom: 1px solid #99742e;
+  border-bottom: 3px solid #454545;
   height: 38px;
   width: 100%;
 }
@@ -606,7 +528,11 @@ body {
 }
 
 body.custom-background {
-  background-image: none !important;
+  background-image: url('img/wallpaper1.jpg') !important;
+  background-repeat: repeat;
+  background-position: top left;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 h1,
@@ -617,16 +543,21 @@ h4 {
 }
 
 #breadcrumbs strong {
-  color: #99742e;
+  color: white;
 }
 
 .bop-nav-search:hover {
-  background: inherit !important;
+  background: none !important;
+}
+
+.home .bop-nav-search:hover {
+  background: #222 !important;
 }
 
 .bop-nav-search .search-field {
   font-size: 14px;
 }
+
 
 /* ul li.menu-item:first-child {
   background: url(img/bjj-flux.png);
@@ -642,8 +573,7 @@ h4 {
 .post.intro p {
   text-align: center;
   /*width: 50%;*/
-  color: #594c2d;
-  margin-top: 1em;
+  color: white;
   font-size: 18px;
   text-align: left;
 }
@@ -651,6 +581,25 @@ h4 {
 .post h2 {
   width: 100%;
   font-size: 16px;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.03) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.2) inset;
+  border-radius: 2px;
+  background: transparent linear-gradient(#998750, #8c7a40) repeat scroll 0% 0%;
+  color: white;
+  padding: 17px 7px 17px 7px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.home .post h2 {
+  width: 96%;
+}
+
+.post h2:hover {
+  /*  background: transparent linear-gradient(to bottom, #a8965a 0%, #89783f 100%) repeat scroll 0% 0% */
+}
+
+.post h2 a {
+  color: white;
 }
 
 .technique-icon {
@@ -666,6 +615,10 @@ h4 {
 
 .post {
   border-bottom: 1px solid lightgrey;
+}
+
+.blurred .post {
+  max-width: 300px;
 }
 
 .post:nth-child(1),
@@ -699,7 +652,7 @@ h4 {
 }
 
 #cat-desc {
-  color: #594c2d;
+  color: white;
   float: right;
   text-indent: 30px;
   display: inline;
@@ -722,7 +675,7 @@ article iframe {
 
 .next-moves {
   margin-top: 20px;
-  border-bottom: 1px solid #99742e;
+  border-bottom: 3px solid #454545;
   height: 38px;
   clear: both;
   width: 100%;
@@ -796,4 +749,8 @@ div[itemprop="articleBody"] > p {
   div[itemprop="articleBody"] > #cat-desc {
     width: 100%;
   }
+}
+
+p {
+  color: white;
 }

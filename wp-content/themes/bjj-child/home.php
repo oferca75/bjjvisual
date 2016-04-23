@@ -12,6 +12,13 @@
 ?>
 
 </div>
+<div class="site-title">
+    <b> OR </b></div>
+<div class="site-desc">
+    Explore Fighting Positions:
+</div>
+ 
+
 
 <div id="content" style="text-align: center" class="cf">
 
